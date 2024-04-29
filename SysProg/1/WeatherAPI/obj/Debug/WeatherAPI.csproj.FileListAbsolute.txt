@@ -1,0 +1,11 @@
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\WeatherAPI.pdb
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\Newtonsoft.Json.dll
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\Newtonsoft.Json.xml
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.AssemblyReference.cache
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.pdb
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.SuggestedBindingRedirects.cache
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\WeatherAPI.exe.config
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\WeatherAPI.exe
+D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.exe
