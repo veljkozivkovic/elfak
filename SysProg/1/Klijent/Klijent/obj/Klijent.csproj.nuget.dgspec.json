@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Faks\\3.Godina\\SYS\\Projekti\\1\\Klijent\\Klijent\\Klijent.csproj": {}
+    "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj": {}
   },
   "projects": {
-    "D:\\Faks\\3.Godina\\SYS\\Projekti\\1\\Klijent\\Klijent\\Klijent.csproj": {
+    "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Faks\\3.Godina\\SYS\\Projekti\\1\\Klijent\\Klijent\\Klijent.csproj",
+        "projectUniqueName": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
         "projectName": "Klijent",
-        "projectPath": "D:\\Faks\\3.Godina\\SYS\\Projekti\\1\\Klijent\\Klijent\\Klijent.csproj",
-        "packagesPath": "C:\\Users\\Tomislav\\.nuget\\packages\\",
-        "outputPath": "D:\\Faks\\3.Godina\\SYS\\Projekti\\1\\Klijent\\Klijent\\obj\\",
+        "projectPath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
+        "packagesPath": "C:\\Users\\korisnik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\1\\Klijent\\Klijent\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Tomislav\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -59,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

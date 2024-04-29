@@ -34,7 +34,7 @@ namespace WeatherAPI.Services
 
             try
             {
-                //LFU cache = new LFU(10);
+                //LFU cache = new LFU(10); ne mozeeeeeeeeeeeeeeeeeeee
                 string cacheRezultat = cache.Get(ime);
                 if (cacheRezultat != null)
                 {

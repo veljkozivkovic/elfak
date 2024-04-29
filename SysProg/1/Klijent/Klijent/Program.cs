@@ -34,7 +34,7 @@ namespace Klijent
                 try
                 {
                     HttpResponseMessage response = client.GetAsync(url).Result;
-                    response.EnsureSuccessStatusCode(); // Provera da li je odgovor uspešan
+                    response.EnsureSuccessStatusCode(); // Provera da li je odgovor uspesan
 
                     string responseBody = response.Content.ReadAsStringAsync().Result;
                     Console.WriteLine($"Odgovor servera za grad {grad}:");

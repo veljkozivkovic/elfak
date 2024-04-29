@@ -25,14 +25,16 @@ namespace WeatherAPI
             Console.WriteLine("Server running at " + url);
 
             // Kreiranje instance tima LRU
-            LFU lfu = new LFU(3); // Zamijenite ovaj kod sa stvarnom inicijalizacijom LRU tima
+            LFU lfu = new LFU(3); //3 smo stavili da vidimo stvarno da li izbacuje
 
             while (true)
             {
                 HttpListenerContext context = listener.GetContext();
-                // Postavljanje obrade zahteva na ThreadPool-u, koristeći lambda izraz za prosleđivanje LRU tima
+                // mora ovako sa lambda izrazon jer handlerequest ima sad 2 parametra...
                 if (context.Request.Url.AbsolutePath != "/favicon.ico")
                     ThreadPool.QueueUserWorkItem((state) => Handler.HandleRequest(context, lfu));
+                //TODO :
+                //ovako izgleda bi izgledalo bez 2 parametra
             }
 
 

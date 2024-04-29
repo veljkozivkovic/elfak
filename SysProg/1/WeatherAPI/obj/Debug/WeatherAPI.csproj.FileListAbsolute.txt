@@ -9,3 +9,13 @@ D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.Suggested
 D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\WeatherAPI.exe.config
 D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\bin\Debug\WeatherAPI.exe
 D:\Faks\3.Godina\SYS\Projekti\1\WeatherAPI\obj\Debug\WeatherAPI.exe
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\bin\Debug\WeatherAPI.exe.config
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\bin\Debug\WeatherAPI.exe
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\bin\Debug\WeatherAPI.pdb
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.AssemblyReference.cache
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\obj\Debug\WeatherAPI.csproj.Up2Date
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\obj\Debug\WeatherAPI.exe
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\WeatherAPI\obj\Debug\WeatherAPI.pdb
