@@ -27,6 +27,8 @@ namespace WeatherAPI.LFUCache
             _minfreq = 0;
         }
 
+
+        //update ne sme imati ulaz u writeLock jer dolazi do deadlock-a
         private void Update(Node node)
         {
             

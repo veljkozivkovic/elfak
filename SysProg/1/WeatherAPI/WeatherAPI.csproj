@@ -49,7 +49,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\WeatherForecast.cs" />
     <Compile Include="LFUCache\DLinkedList.cs" />
     <Compile Include="LFUCache\LFUCache.cs" />
     <Compile Include="LFUCache\Node.cs" />

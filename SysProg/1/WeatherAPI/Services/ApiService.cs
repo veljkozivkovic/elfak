@@ -32,7 +32,6 @@ namespace WeatherAPI.Services
                 var response = client.GetAsync(url).Result;
                 var resBody = response.Content.ReadAsStringAsync().Result;
                 return JObject.Parse(resBody);
-                //Console.WriteLine("Zavrseno pribavljanje podataka.\n");
             }
             catch (Exception e)
             {

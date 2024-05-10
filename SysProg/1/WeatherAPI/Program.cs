@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 using WeatherAPI.LFUCache;
 using WeatherAPI.Services;
 using WeatherAPI.Utils;
-using WeatherAPI.LFUCache;
 
 namespace WeatherAPI
 {
@@ -24,17 +23,17 @@ namespace WeatherAPI
             listener.Start();
             Console.WriteLine("Server running at " + url);
 
-            // Kreiranje instance tima LRU
+            // Kreiranje cache-a
             LFU lfu = new LFU(3); //3 smo stavili da vidimo stvarno da li izbacuje
 
             while (true)
             {
                 HttpListenerContext context = listener.GetContext();
-                // mora ovako sa lambda izrazon jer handlerequest ima sad 2 parametra...
+                //ovaj if smo stavili kako ne bismo nonstop imali warning za favicon
                 if (context.Request.Url.AbsolutePath != "/favicon.ico")
                     ThreadPool.QueueUserWorkItem((state) => Handler.HandleRequest(context, lfu));
-                //TODO :
-                //ovako izgleda bi izgledalo bez 2 parametra
+                // mora ovako sa lambda izrazom jer handlerequest ima sad 2 parametra...
+
             }
 
 

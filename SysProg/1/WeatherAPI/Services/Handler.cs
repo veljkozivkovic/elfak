@@ -20,21 +20,17 @@ namespace WeatherAPI.Services
             string requestMethod = context.Request.HttpMethod;
             string ime = requestUrl.Substring(1);
 
-            //Console.WriteLine($"Primljeno ime: {ime}");
-
-            //Console.WriteLine($"Request: {requestMethod} {requestUrl}");
-
-            //string query = "Paris";
+            
             string day = "1";
             var apiService = new ApiService("https://api.weatherapi.com/v1/forecast.json", "03b77707127e4e6c916140528242404", day);
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            string lista;
+            string lista = ""; // moramo da inicijalizujemo kao prazan string zbog upita kasnije za stopwatch
 
             try
             {
-                //LFU cache = new LFU(10); ne mozeeeeeeeeeeeeeeeeeeee
+                
                 string cacheRezultat = cache.Get(ime);
                 if (cacheRezultat != null)
                 {
@@ -51,25 +47,34 @@ namespace WeatherAPI.Services
                 {
                     var result = apiService.FetchData(ime); // result je tipa JSON OBJ
                     lista = WeatherUtil.WriteResult(result); // lista je tipa string jer parsiramo JSON OBJ
-                    cache.Put(ime, lista); // U KES ubacujemo ime grada kao kljuc hesa i parsiran string
+
+                    if (lista.Equals("Upit nije dobro poslat"))
+                        Console.WriteLine("Upit nije dobro poslat");
+
+                    else
+                    {
+                        cache.Put(ime, lista); // U KES ubacujemo ime grada kao kljuc hesa i parsiran string
 
 
-                    byte[] buffer = System.Text.Encoding.UTF8.GetBytes(lista);
-                    context.Response.ContentLength64 = buffer.Length;
-                    context.Response.OutputStream.Write(buffer, 0, buffer.Length);
-                    context.Response.OutputStream.Close();
+                        byte[] buffer = System.Text.Encoding.UTF8.GetBytes(lista);
+                        context.Response.ContentLength64 = buffer.Length;
+                        context.Response.OutputStream.Write(buffer, 0, buffer.Length);
+                        context.Response.OutputStream.Close();
 
-                    Console.WriteLine($"Grad {ime} vrednost je pribavljena preko API-ja");
-
+                        Console.WriteLine($"Grad {ime} vrednost je pribavljena preko API-ja");
+                    }
                 }
-                
 
-
-                //Console.WriteLine($"Request {requestUrl} processed successfully");
 
 
                 stopwatch.Stop();
-                Console.WriteLine($"Vreme potrebno za izvrsenje je: {stopwatch.Elapsed}");
+
+                //ne treba nam stoperica prilikom greske pisanja upita
+                if (!lista.Equals("Upit nije dobro poslat"))
+                {
+                    Console.WriteLine($"Vreme potrebno za izvrsenje je: {stopwatch.Elapsed}");
+
+                }
 
             }
 
