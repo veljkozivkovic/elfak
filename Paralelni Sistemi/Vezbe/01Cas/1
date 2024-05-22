@@ -1,0 +1,50 @@
+#include <iostream>
+#include "mpi.h"
+#include <stdlib.h>
+#include <stdio.h>
+using namespace std;
+int main(int argc, char* argv[])
+{
+    int rank, size, val;
+    MPI_Init(&argc, &argv);
+    MPI_Status stat;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    do {
+        if (rank == 0)
+        {
+            printf("Unesi val u %d. \n", rank);
+            fflush(stdout);
+            scanf_s("%d", &val);
+            MPI_Send(&val, 1, MPI_INT, rank + 1, 69, MPI_COMM_WORLD);
+        }
+        else
+        {
+            MPI_Recv(&val, 1, MPI_INT, rank - 1, 69, MPI_COMM_WORLD, &stat);
+            if (rank < size - 1)
+            {
+                printf("Ja sam %d. i vrednost prenesena je: %d. \n", rank, val);
+                fflush(stdout);
+                MPI_Send(&val, 1, MPI_INT, rank + 1, 69, MPI_COMM_WORLD);   
+            }
+            else
+            {
+                if (val > 0) {
+                    printf("Ja sam zadnji tj. %d i vrednost prenesena je: %d. \n", rank, val);
+                    fflush(stdout);
+
+                }
+                else {
+                    printf("Uneli ste negativan broj, zavrsen je zadata.\n");
+                }
+            }
+        }
+    } while (val > 0);
+
+   
+    fflush(stdout);
+
+    MPI_Finalize();
+    return 0;
+}

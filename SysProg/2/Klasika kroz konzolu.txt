@@ -1,0 +1,50 @@
+using System;
+using System.Net.Http;
+using System.Threading;
+
+
+
+namespace Klijent
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            while (true)
+            {
+                // Unos imena grada od strane korisnika
+                Console.WriteLine("Unesite ime grada ili 'exit' za izlaz:");
+                string grad = Console.ReadLine();
+
+                if (grad.ToLower() == "exit")
+                    break;
+
+                // Slanje HTTP zahteva sa imenom grada
+                SendRequest(grad);
+            }
+        }
+
+        static void SendRequest(string grad)
+        {
+            string url = $"http://localhost:5000/{grad}"; // Dodavanje imena grada u URL
+
+            using (HttpClient client = new HttpClient())
+            {
+                try
+                {
+                    HttpResponseMessage response = client.GetAsync(url).Result;
+                    response.EnsureSuccessStatusCode(); // Provera da li je odgovor uspešan
+
+                    string responseBody = response.Content.ReadAsStringAsync().Result;
+                    Console.WriteLine("Odgovor servera:");
+                    Console.WriteLine(responseBody);
+                }
+                catch (HttpRequestException ex)
+                {
+                    Console.WriteLine($"Došlo je do greške prilikom slanja zahteva: {ex.Message}");
+                }
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,45 @@
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.exe
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.deps.json
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.runtimeconfig.json
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.dll
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.pdb
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.csproj.AssemblyReference.cache
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.AssemblyInfoInputs.cache
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.AssemblyInfo.cs
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.csproj.CoreCompileInputs.cache
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.dll
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\refint\Klijent.dll
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.pdb
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.genruntimeconfig.cache
+D:\Faks\3.Godina\SYS\Projekti\1\Klijent\Klijent\obj\Debug\net6.0\ref\Klijent.dll
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.exe
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.deps.json
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.runtimeconfig.json
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.dll
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.pdb
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.AssemblyInfoInputs.cache
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.AssemblyInfo.cs
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.sourcelink.json
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.dll
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\refint\Klijent.dll
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.pdb
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.genruntimeconfig.cache
+C:\Users\korisnik\Desktop\GitHub\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\ref\Klijent.dll
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.exe
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.deps.json
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.runtimeconfig.json
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.dll
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\bin\Debug\net6.0\Klijent.pdb
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.GeneratedMSBuildEditorConfig.editorconfig
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.AssemblyInfoInputs.cache
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.AssemblyInfo.cs
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.csproj.CoreCompileInputs.cache
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.sourcelink.json
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.dll
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\refint\Klijent.dll
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.pdb
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\Klijent.genruntimeconfig.cache
+D:\Toma\Sistemsko\I proj\elfak\SysProg\1\Klijent\Klijent\obj\Debug\net6.0\ref\Klijent.dll

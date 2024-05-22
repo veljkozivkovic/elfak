@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "b5++P4iJCrI8UVACBWaTyaCZtYvDvzRcR7z8NW+raa43J4i9pJTldUTRd6gqQlg6AdOsd2Qa7Nbt9cuMLJMljw==",
+  "success": true,
+  "projectFilePath": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
+    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
+  ],
+  "logs": []
+}

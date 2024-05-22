@@ -1,0 +1,107 @@
+%%cuda
+#include <stdio.h>
+//broj blokova
+#define GRID_DIM 32
+//dimenzije blokova
+#define BLOCK_DIM 32
+
+__global__ void kernel(float* a, float* b, int* n) {
+    __shared__ float local_a[BLOCK_DIM + 2]; // ovde sam definisao da je ovo unutar deljene memorije i sve niti iz istog bloka mogu da pristupaju ovoj local_a + 2 koja nam trebaju nakon
+                                       // znaci u jednom bloku sve niti su zaduzene za kreiranje po 1 elementa iz b
+    
+    int tid = blockIdx.x * blockDim.x + threadIdx.x;
+    
+    if (tid >= n[0]) return; //nama znaci trebaju samo threadovi iz prvog bloka koji idu od 0 do 18. elementa
+
+    local_a[threadIdx.x] = a[tid];
+    
+
+
+    //ovde se resavamo zadnjih 2 elementa jer nam ne treba za b
+    if(tid >= n[0] - 2) return;
+
+    float temp, a0, a1, a2;
+    //sada obezbedjujemo da ucita i naredna 2 elementa iz a, ukoliko postoje elementi sa indexom vecim od indexa zadnje niti unutar bloka
+    //sve ove provere cu uraditi sa jednom nit, kako ne bih za dzabe radio ista izracunavanja u svakoj kad mi samo treba 1 nit da zavrsi rabotu
+
+    if(threadIdx.x == blockDim.x - 1)
+    {
+        a0 = local_a[threadIdx.x];   
+     
+        int maxGlobalIndex = (blockIdx.x + 1) * blockDim.x - 1; 
+
+        int razlika = n[0] - maxGlobalIndex;
+
+        if(razlika > 0)
+        {
+            local_a[BLOCK_DIM] = a[tid + 1];
+            if(razlika > 1)
+            {
+                local_a[BLOCK_DIM + 1] = a[tid+2];
+            }
+        }
+        
+    }
+       __syncthreads(); // isto  kao MPI_Barrier da bi sacekale niti ostale dok upisu u deljeni niz
+
+        a0 = local_a[threadIdx.x];
+        a1 = local_a[threadIdx.x + 1];
+        a2 = local_a[threadIdx.x + 2];
+    
+
+    
+    temp = (a0 + 200) / ( (a1 + a2) * 3);
+
+    b[tid] = temp;
+}
+
+__host__ void initAndCall(float* a, float* b, int* n) {
+    float* dev_a, *dev_b;
+    int*dev_n;
+    cudaMalloc((void**)&dev_a, n[0] * sizeof(float));
+    cudaMalloc((void**)&dev_b, (n[0] - 2) * sizeof(float));
+    cudaMalloc((void**)&dev_n, sizeof(int));
+
+    cudaMemcpy(dev_a, a, n[0] * sizeof(float), cudaMemcpyHostToDevice);
+    cudaMemcpy(dev_n, n, sizeof(int), cudaMemcpyHostToDevice);
+
+    kernel<<<GRID_DIM, BLOCK_DIM>>>(dev_a, dev_b, dev_n);
+
+    cudaMemcpy(b, dev_b, (n[0] - 2) * sizeof(float), cudaMemcpyDeviceToHost);
+
+    cudaFree(dev_a);
+    cudaFree(dev_b);
+    cudaFree(dev_n);
+}
+
+int main() {
+    float* a, *b;
+    int *n;
+
+    n = (int*)malloc(sizeof(int));
+
+    n[0] = 70;
+    printf("%d:\n", n[0]);
+
+    a = (float*)malloc(n[0] * sizeof(float));
+    b = (float*)malloc((n[0] - 2) * sizeof(float));
+
+    for (int i = 0; i < n[0]; ++i) {
+        a[i] = i;
+        printf("%d: %f ", i, a[i]);
+    }
+    printf("\n");
+    initAndCall(a, b, n);
+    printf("%d:\n", n[0] - 2);
+    for (int i = 0; i < n[0] - 2; ++i) {
+        printf("%d %f ", i, b[i]);
+    }
+    printf("\n");
+
+    free(a);
+    free(b);
+    free(n);
+
+    return 0;
+
+}

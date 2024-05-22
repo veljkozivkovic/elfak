@@ -1,0 +1,83 @@
+#include <iostream>
+#include "mpi.h"
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+
+using namespace std;
+int main(int argc, char* argv[])
+{
+    int rank, size;
+    const int n = 10;
+    int a[n], b[n];
+    MPI_Init(&argc, &argv);
+    MPI_Status stat;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+
+    int nizA[n], nizB[n];
+
+
+    int lokalni_broj = n / size;
+
+
+    if (n % size != 0)
+    {
+        cout << "Nije broj elemenata deljivo sa brojem procesa! " << endl;
+        fflush(stdout);
+        return -1;
+    }
+
+
+    int tacka_za_proces = 0;
+
+    int rez = 0;
+
+    if (!rank) {
+        printf("Unesite vrednosti za vektor a: \n");
+        fflush(stdout);
+        for (int i = 0; i < n; i++)
+        {
+            cin >> nizA[i];
+        }
+
+
+        
+        printf("Unesite vrednosti za vektor b: \n");
+        fflush(stdout);
+        for (int i = 0; i < n; i++) 
+        {
+            cin >> nizB[i];
+        }
+
+
+
+    }
+
+    // SCATTER MORA RADE SVI NE SAMO NULTI     !!!
+    // + DINAMICKI NIZOVI BEZ & PISES OBAVEZNO !!!
+    // + STATICKI NIZOVI MOGI I SA I BEZ &     !!!
+    MPI_Scatter(&nizA, lokalni_broj, MPI_INT, &a, lokalni_broj, MPI_INT, 0, MPI_COMM_WORLD);
+    MPI_Scatter(&nizB, lokalni_broj, MPI_INT, &b, lokalni_broj, MPI_INT, 0, MPI_COMM_WORLD);
+
+    
+    for (int i = 0; i < lokalni_broj; i++)
+    {
+        //cout << "Proces: " << rank << " a[" << i << "] = " << a[i] << " b[" << i << "]= " << b[i] << endl;
+        //fflush(stdout);
+        tacka_za_proces += ( a[i] * b[i] );
+        
+    }
+
+    MPI_Reduce(&tacka_za_proces, &rez, 1, MPI_INT, MPI_SUM, 0, MPI_COMM_WORLD);
+
+    if (!rank)
+    {
+        cout << "Skalarni proizvod je: " << rez << endl;
+        fflush(stdout);
+    }
+
+
+    MPI_Finalize();
+    return 0;
+}
