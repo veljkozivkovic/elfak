@@ -34,6 +34,7 @@ namespace WeatherAPI.Services
                 {
                     byte[] buffer = System.Text.Encoding.UTF8.GetBytes(cacheRezultat);
                     context.Response.ContentLength64 = buffer.Length;
+                    context.Response.ContentType = "text/plain; charset=utf-8"; // da pise latinicu
                     await context.Response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
                     Console.WriteLine($"Grad {ime} vrednost je procitana iz Cache-a !");
                 }
@@ -52,6 +53,7 @@ namespace WeatherAPI.Services
 
                     byte[] buffer = System.Text.Encoding.UTF8.GetBytes(lista);
                     context.Response.ContentLength64 = buffer.Length;
+                    context.Response.ContentType = "text/plain; charset=utf-8"; // da pise latinicu
                     await context.Response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
                     context.Response.OutputStream.Close();
                 }
