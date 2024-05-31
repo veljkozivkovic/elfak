@@ -1,0 +1,132 @@
+INSERT INTO zaposleni VALUES ('0101978723456', 'Marko', 'Jovanović', TO_DATE('1978-01-01', 'YYYY-MM-DD'), 'administracija', 'pravnik', 'doktor nauka', NULL);
+INSERT INTO zaposleni VALUES ('2306982751230', 'Ana', 'Popović', TO_DATE('1982-06-23', 'YYYY-MM-DD'), 'administracija', 'finansijski administrator', 'master', NULL);
+INSERT INTO zaposleni VALUES ('1505963789120', 'Marko', 'Šarović', TO_DATE('1963-05-15', 'YYYY-MM-DD'), 'administracija', 'finansijski administrator', 'master', NULL);
+INSERT INTO zaposleni VALUES ('0712984772343', 'Milica', 'Nikolić', TO_DATE('1984-12-07', 'YYYY-MM-DD'), 'dirkon', NULL, 'master', 'psiholog');
+INSERT INTO zaposleni VALUES ('3003992789127', 'Stefan', 'Petrović', TO_DATE('1992-03-30', 'YYYY-MM-DD'), 'dirkon', NULL, 'srednja škola', 'obezbeđenje');
+INSERT INTO zaposleni VALUES ('2507996789130', 'Jovan', 'Đorđević', TO_DATE('1996-07-25', 'YYYY-MM-DD'), 'dirkon', NULL, 'srednja skola', 'obezbeđenje');
+INSERT INTO zaposleni VALUES ('2009996378913', 'Nikola', 'Pavlović', TO_DATE('1996-09-20', 'YYYY-MM-DD'), 'administracija', 'pravnik', 'doktor nauka', NULL);
+INSERT INTO zaposleni VALUES ('0804989789123', 'Ivana', 'Simić', TO_DATE('1989-04-08', 'YYYY-MM-DD'), 'administracija', 'finansijski administrator', 'master', NULL);
+INSERT INTO zaposleni VALUES ('1308985720542', 'Marija', 'Mijatović', TO_DATE('1985-08-13', 'YYYY-MM-DD'), 'administracija', 'pravnik', 'doktor nauka', NULL);
+INSERT INTO zaposleni VALUES ('1611983789130', 'Milan', 'Milošević', TO_DATE('1983-11-16', 'YYYY-MM-DD'), 'dirkon', NULL, 'master', 'psiholog');
+INSERT INTO zaposleni VALUES ('0801991235013', 'Marija', 'Ilić', TO_DATE('1991-01-08', 'YYYY-MM-DD'), 'dirkon', NULL, 'master', 'psiholog');
+INSERT INTO zaposleni VALUES ('1008965789130', 'Milorad', 'Šarenac', TO_DATE('1965-08-10', 'YYYY-MM-DD'), 'dirkon', NULL, 'srednja skola', 'obezbeđenje');
+
+INSERT INTO zatvorska_jedinica VALUES (1, 'Centralni Zatvor', 500, 'Bačvanska 14, Beograd', '0101978723456', 0, 0, NULL, NULL, 1);
+INSERT INTO zatvorska_jedinica VALUES (2, 'Kazneno Popravni Dom', 300, 'Milke Protić bb, Niš', '2009996378913', 0, 1, '20:00', '06:00', 0);
+INSERT INTO zatvorska_jedinica VALUES (3, 'Okružni Zatvor', 400, 'Proleterska 16, Novi Sad', '1308985720542', 1, 0, '21:00', '05:00', 0);
+
+INSERT INTO firma VALUES (67890123, 'Poljoprivredno gazdinstvo Mirković', 'Carice Milice bb, Novi Sad');
+INSERT INTO firma VALUES (78901234, 'Stolarija Milošević', 'Durmitorska 15, Novi Sad');
+
+INSERT INTO advokat VALUES ('2306988751230', 'Luka', 'Pavlović');
+INSERT INTO advokat VALUES ('1905963789120', 'Jovana', 'Stojanović');
+INSERT INTO advokat VALUES ('1212984772343', 'Nikola', 'Đorđević');
+
+INSERT INTO zatvorenik VALUES (1, 'Marko', 'Petrović', 'Cara Dušana 15, Niš', 'M', 'Na čekanju', TO_DATE('2024-06-15', 'YYYY-MM-DD'), NULL, '2306988751230', 2, TO_DATE('2023-04-10', 'YYYY-MM-DD'), TO_DATE('2024-03-15', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (2, 'Milan', 'Nikolić', 'Kralja Petra I 20, Niš', 'M', 'Nije podnet', TO_DATE('2024-07-10', 'YYYY-MM-DD'), NULL, '2306988751230', 2, TO_DATE('2022-06-11', 'YYYY-MM-DD'), TO_DATE('2024-04-10', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (3, 'Nikola', 'Stanišić', 'Bulevar Nemanjića 7, Niš', 'M', 'Nije podnet', TO_DATE('2024-07-15', 'YYYY-MM-DD'), NULL, '2306988751230', 2, TO_DATE('2021-08-14', 'YYYY-MM-DD'), TO_DATE('2024-02-20', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (4, 'Nenad', 'Pavlović', 'Vuka Karadžića 12, Beograd', 'M', 'Dostavljanje dokumentacije', TO_DATE('2024-07-20', 'YYYY-MM-DD'), NULL, '1905963789120', 1, TO_DATE('2020-01-16', 'YYYY-MM-DD'), TO_DATE('2024-01-22', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (5, 'Filip', 'Milojković', 'Nikole Pašića 10, Niš', 'M', 'Na čekanju', TO_DATE('2024-07-25', 'YYYY-MM-DD'), NULL, '2306988751230', 2, TO_DATE('2023-02-18', 'YYYY-MM-DD'), TO_DATE('2024-03-24', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (6, 'Milan', 'Matić', 'Bulevar Oslobođenja 55, Novi Sad', 'M', 'Nije podnet', TO_DATE('2024-08-01', 'YYYY-MM-DD'), 67890123, '1212984772343', 3, TO_DATE('2021-10-20', 'YYYY-MM-DD'), TO_DATE('2024-02-26', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (7, 'Marko', 'Maričić', 'Jovana Dučića 8, Novi Sad', 'M', 'Procesiranje dokumentacije', TO_DATE('2024-08-05', 'YYYY-MM-DD'), 67890123, '1212984772343', 3, TO_DATE('2023-03-22', 'YYYY-MM-DD'), TO_DATE('2024-03-28', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (8, 'Nikola', 'Đorđević', 'Petra Drapšina 21, Novi Sad', 'M', 'Na čekanju', TO_DATE('2024-08-10', 'YYYY-MM-DD'), 78901234, '1212984772343', 3, TO_DATE('2020-09-24', 'YYYY-MM-DD'), TO_DATE('2024-01-30', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (9, 'Stefan', 'Ilić', 'Laze Kostića 3, Novi Sad', 'M', 'Procesiranje dokumentacije', TO_DATE('2024-08-15', 'YYYY-MM-DD'), 78901234, '1212984772343', 3, TO_DATE('2022-12-26', 'YYYY-MM-DD'), TO_DATE('2024-02-02', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (10, 'Bojan', 'Mijatović', 'Kneza Miloša 17, Beograd', 'M', 'Dostavljanje dokumentacije', TO_DATE('2024-08-20', 'YYYY-MM-DD'), NULL, '1905963789120', 1, TO_DATE('2021-11-28', 'YYYY-MM-DD'), TO_DATE('2024-03-04', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (11, 'Jovana', 'Stojanović', 'Vožda Karađorđa 33, Niš', 'Z', 'Nije podnet', TO_DATE('2024-08-20', 'YYYY-MM-DD'), NULL, '2306988751230', 2, TO_DATE('2020-12-12', 'YYYY-MM-DD'), TO_DATE('2024-04-12', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (12, 'Ana', 'Vidojković', 'Maksima Gorkog 13, Novi Sad', 'Z', 'Nije podnet', TO_DATE('2024-09-05', 'YYYY-MM-DD'), NULL, '1212984772343', 3, TO_DATE('2022-07-13', 'YYYY-MM-DD'), TO_DATE('2024-01-19', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (13, 'Stefan', 'Pejić', 'Nemanjina 10, Beograd', 'M', 'Na čekanju', TO_DATE('2024-08-25', 'YYYY-MM-DD'), NULL, '1905963789120', 1, TO_DATE('2023-04-30', 'YYYY-MM-DD'), TO_DATE('2024-02-06', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (14, 'Nemanja', 'Jurić', 'Francuska 23, Beograd', 'M', 'Dostavljanje dokumentacije', TO_DATE('2024-08-30', 'YYYY-MM-DD'), NULL, '1905963789120', 1, TO_DATE('2024-04-02', 'YYYY-MM-DD'), TO_DATE('2024-03-08', 'YYYY-MM-DD'));
+INSERT INTO zatvorenik VALUES (15, 'Aleksandar', 'Janković', 'Terazije 5, Beograd', 'M', 'Procesiranje dokumentacije', TO_DATE('2024-09-05', 'YYYY-MM-DD'), NULL, '1905963789120', 1, TO_DATE('2021-05-04', 'YYYY-MM-DD'), TO_DATE('2024-04-13', 'YYYY-MM-DD'));
+
+INSERT INTO prestup VALUES (1, 'Krađa', 'Imovinski prestupi', 'Neovlašćeno prisvajanje tuđe imovine.', '6 meseci', '3 godine');
+INSERT INTO prestup VALUES (2, 'Nasilje u porodici', 'Nasilni prestupi', 'Fizičko ili psihičko nasilje nad članovima porodice.', '1 godina', '5 godina');
+INSERT INTO prestup VALUES (3, 'Droga', 'Prestupi protiv javnog reda i mira', 'Neovlašćena proizvodnja, trgovina ili posedovanje opojnih droga.', '2 godine', '10 godina');
+INSERT INTO prestup VALUES (4, 'Prevara', 'Imovinski prestupi', 'Namerna obmana radi ostvarivanja nezakonite koristi.', '1 godina', '5 godina');
+INSERT INTO prestup VALUES (5, 'Ubistvo', 'Nasilni prestupi', 'Nameran čin usmrćivanja drugog lica.', '10 godina', 'Doživotna kazna');
+INSERT INTO prestup VALUES (6, 'Napad', 'Nasilni prestupi', 'Fizički napad na drugu osobu sa namerom nanošenja povreda.', '6 meseci', '5 godina');
+INSERT INTO prestup VALUES (7, 'Hakerski napad', 'Računarski prestupi', 'Neovlašćeni pristup računarskim sistemima radi krađe podataka ili ometanja rada.', '1 godina', '8 godina');
+INSERT INTO prestup VALUES (8, 'Nelegalno oružje', 'Prestupi protiv javnog reda i mira', 'Nezakonito posedovanje ili nošenje oružja.', '6 meseci', '3 godine');
+INSERT INTO prestup VALUES (9, 'Podstrekivanje na nasilje', 'Nasilni prestupi', 'Podsticanje drugih na izvršenje nasilnih akata.', '6 meseci', '2 godine');
+INSERT INTO prestup VALUES (10, 'Korupcija', 'Koruptivni prestupi', 'Zloupotreba položaja radi lične koristi ili koristi treće osobe.', '2 godine', '10 godina');
+INSERT INTO prestup VALUES (11, 'Pranje novca', 'Finansijski prestupi', 'Legalizacija novca stečenog kriminalnim delovanjem.', '2 godine', '8 godina');
+INSERT INTO prestup VALUES (12, 'Izazivanje nereda', 'Prestupi protiv javnog reda i mira', 'Organizovanje ili učestvovanje u neredima ili masovnim protestima.', '6 meseci', '5 godina');
+INSERT INTO prestup VALUES (13, 'Povreda intelektualne svojine', 'Prestupi intelektualne svojine', 'Neovlašćena reprodukcija, distribucija ili korišćenje intelektualne svojine.', '6 meseci', '3 godine');
+INSERT INTO prestup VALUES (14, 'Otmica', 'Nasilni prestupi', 'Protivpravno lišavanje slobode drugog lica.', '5 godina', 'Doživotna kazna');
+INSERT INTO prestup VALUES (15, 'Krađa identiteta', 'Računarski prestupi', 'Neovlašćeno korišćenje identiteta druge osobe radi prevare.', '1 godina', '8 godina');
+
+INSERT INTO obuka_vatreno_oruzje VALUES (1, TO_DATE('2022-04-16', 'YYYY-MM-DD'), 'Policijska uprava Beograd', '1008965789130');
+INSERT INTO obuka_vatreno_oruzje VALUES (2, TO_DATE('2020-09-17', 'YYYY-MM-DD'), 'Policijska uprava Novi Sad', '2507996789130');
+INSERT INTO obuka_vatreno_oruzje VALUES (3, TO_DATE('2021-04-18', 'YYYY-MM-DD'), 'Policijska uprava Niš', '3003992789127');
+
+INSERT INTO lekarski_pregled VALUES ('0712984772343', TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'Dom zdravlja Novi Beograd', 'Kralja Milutina 18, Beograd', 'Ana Petrović');
+INSERT INTO lekarski_pregled VALUES ('3003992789127', TO_DATE('2024-04-11', 'YYYY-MM-DD'), 'Dom zdravlja Novi Beograd', 'Kralja Milutina 18, Beograd', 'Ana Petrović');
+INSERT INTO lekarski_pregled VALUES ('2507996789130', TO_DATE('2024-04-10', 'YYYY-MM-DD'), 'Dom zdravlja Niš', 'Vojvode Tankosića 15, Niš', 'Petar Marković');
+INSERT INTO lekarski_pregled VALUES ('1611983789130', TO_DATE('2024-04-10', 'YYYY-MM-DD'), 'Dom zdravlja Niš', 'Vojvode Tankosića 15, Niš', 'Petar Marković');
+INSERT INTO lekarski_pregled VALUES ('0801991235013', TO_DATE('2024-04-09', 'YYYY-MM-DD'), 'Dom zdravlja Novi Sad', 'Bulevar cara Lazara 75', 'Maša Tasić');
+INSERT INTO lekarski_pregled VALUES ('1008965789130', TO_DATE('2024-04-09', 'YYYY-MM-DD'), 'Dom zdravlja Novi Sad', 'Bulevar cara Lazara 75', 'Maša Tasić');
+
+INSERT INTO odgovorno_lice VALUES (67890123, 'Maša', 'Petrović');
+INSERT INTO odgovorno_lice VALUES (78901234, 'Mario', 'Stanković');
+INSERT INTO odgovorno_lice VALUES (78901234, 'Jovana', 'Ranđelović');
+INSERT INTO odgovorno_lice VALUES (67890123, 'Stefan', 'Ilić');
+
+INSERT INTO termin_setnje VALUES (1, '09:00', '10:00');
+INSERT INTO termin_setnje VALUES (1, '13:00', '14:00');
+INSERT INTO termin_setnje VALUES (1, '17:00', '18:00');
+
+INSERT INTO termin_posete VALUES (1, 'Petak', '12:00', '14:00');
+INSERT INTO termin_posete VALUES (1, 'Subota', '10:00', '14:00');
+INSERT INTO termin_posete VALUES (1, 'Nedelja', '10:00', '13:00');
+
+INSERT INTO saradnja VALUES (3, 78901234);
+INSERT INTO saradnja VALUES (3, 67890123);
+
+INSERT INTO izvrsen_prestup VALUES (1, 1, 1, TO_DATE('2023-04-08', 'YYYY-MM-DD'), 'Cara Dušana 72, Niš');
+INSERT INTO izvrsen_prestup VALUES (2, 2, 2, TO_DATE('2022-06-09', 'YYYY-MM-DD'), 'Kralja Petra I 12, Niš');
+INSERT INTO izvrsen_prestup VALUES (3, 3, 3, TO_DATE('2021-08-12', 'YYYY-MM-DD'), 'Bulevar Nemanjića 80, Niš');
+INSERT INTO izvrsen_prestup VALUES (4, 4, 4, TO_DATE('2020-01-14', 'YYYY-MM-DD'), 'Kneza Miloša 45, Beograd');
+INSERT INTO izvrsen_prestup VALUES (5, 5, 5, TO_DATE('2023-02-16', 'YYYY-MM-DD'), 'Vožda Karađorđa 1, Niš');
+INSERT INTO izvrsen_prestup VALUES (6, 6, 6, TO_DATE('2021-10-17', 'YYYY-MM-DD'), 'Bulevar Oslobođenja 10, Novi Sad');
+INSERT INTO izvrsen_prestup VALUES (7, 7, 7, TO_DATE('2023-03-20', 'YYYY-MM-DD'), 'Jovana Dučića 2, Novi Sad');
+INSERT INTO izvrsen_prestup VALUES (8, 8, 8, TO_DATE('2020-09-20', 'YYYY-MM-DD'), 'Petra Drapšina 30, Novi Sad');
+INSERT INTO izvrsen_prestup VALUES (9, 9, 9, TO_DATE('2022-12-23', 'YYYY-MM-DD'), 'Ulica Maksima Gorkog 19, Novi Sad');
+INSERT INTO izvrsen_prestup VALUES (10, 10, 10, TO_DATE('2021-11-26', 'YYYY-MM-DD'), 'Nemanjina 40, Beograd');
+INSERT INTO izvrsen_prestup VALUES (11, 11, 11, TO_DATE('2020-12-11', 'YYYY-MM-DD'), 'Nikole Pašića 89, Niš');
+INSERT INTO izvrsen_prestup VALUES (12, 12, 12, TO_DATE('2022-07-11', 'YYYY-MM-DD'), 'Laze Kostića 31, Novi Sad');
+INSERT INTO izvrsen_prestup VALUES (13, 13, 13, TO_DATE('2023-04-29', 'YYYY-MM-DD'), 'Francuska 3, Beograd');
+INSERT INTO izvrsen_prestup VALUES (14, 14, 14, TO_DATE('2024-04-01', 'YYYY-MM-DD'), 'Terazije 52, Beograd');
+INSERT INTO izvrsen_prestup VALUES (15, 15, 15, TO_DATE('2021-05-02', 'YYYY-MM-DD'), 'Vuka Karadžića 62, Beograd');
+ 
+INSERT INTO poseta VALUES (1, 1, '2306988751230', TO_DATE('2024-03-15', 'YYYY-MM-DD'), '10:00', '11:00');
+INSERT INTO poseta VALUES (2, 2, '2306988751230', TO_DATE('202-04-02', 'YYYY-MM-DD'), '14:00', '15:00');
+INSERT INTO poseta VALUES (3, 3, '2306988751230', TO_DATE('2024-02-20', 'YYYY-MM-DD'), '09:00', '10:00');
+INSERT INTO poseta VALUES (4, 4, '1905963789120', TO_DATE('2024-01-22', 'YYYY-MM-DD'), '11:00', '12:00');
+INSERT INTO poseta VALUES (5, 5, '2306988751230', TO_DATE('2024-03-24', 'YYYY-MM-DD'), '15:00', '16:00');
+INSERT INTO poseta VALUES (6, 6, '1212984772343', TO_DATE('2024-02-26', 'YYYY-MM-DD'), '10:00', '11:00');
+INSERT INTO poseta VALUES (7, 7, '1212984772343', TO_DATE('2024-03-28', 'YYYY-MM-DD'), '12:00', '13:00');
+INSERT INTO poseta VALUES (8, 8, '1212984772343', TO_DATE('2024-01-30', 'YYYY-MM-DD'), '16:00', '17:00');
+INSERT INTO poseta VALUES (9, 9, '1212984772343', TO_DATE('2024-02-02', 'YYYY-MM-DD'), '11:00', '12:00');
+INSERT INTO poseta VALUES (10, 10, '1905963789120', TO_DATE('2024-03-04', 'YYYY-MM-DD'), '13:00', '14:00');
+INSERT INTO poseta VALUES (11, 11, '2306988751230', TO_DATE('2024-04-12', 'YYYY-MM-DD'), '12:00', '13:00');
+INSERT INTO poseta VALUES (12, 12, '1212984772343', TO_DATE('2024-01-19', 'YYYY-MM-DD'), '10:00', '11:00');
+INSERT INTO poseta VALUES (13, 13, '1905963789120', TO_DATE('2024-02-06', 'YYYY-MM-DD'), '11:00', '12:00');
+INSERT INTO poseta VALUES (14, 14, '1905963789120', TO_DATE('2024-03-08', 'YYYY-MM-DD'), '13:00', '14:00');
+INSERT INTO poseta VALUES (15, 15, '1905963789120', TO_DATE('2024-04-13', 'YYYY-MM-DD'), '12:00', '13:00');
+
+INSERT INTO radi_u VALUES ('0101978723456', 1, TO_DATE('2019-01-15', 'YYYY-MM-DD'), 'direktor');
+INSERT INTO radi_u VALUES ('2306982751230', 1, TO_DATE('2024-01-18', 'YYYY-MM-DD'), 'knjigovođa');
+INSERT INTO radi_u VALUES ('0712984772343', 1, TO_DATE('2022-08-03', 'YYYY-MM-DD'), 'psiholog');
+INSERT INTO radi_u VALUES ('3003992789127', 1, TO_DATE('2022-10-28', 'YYYY-MM-DD'), 'obezbeđenje');
+INSERT INTO radi_u VALUES ('2009996378913', 1, TO_DATE('2018-04-18', 'YYYY-MM-DD'), 'direktor');
+INSERT INTO radi_u VALUES ('1505963789120', 1, TO_DATE('2023-01-25', 'YYYY-MM-DD'), 'knjigovođa');
+INSERT INTO radi_u VALUES ('1611983789130', 1, TO_DATE('2021-06-28', 'YYYY-MM-DD'), 'psiholog');
+INSERT INTO radi_u VALUES ('2507996789130', 1, TO_DATE('2020-11-19', 'YYYY-MM-DD'), 'obezbeđenje');
+INSERT INTO radi_u VALUES ('1308985720542', 1, TO_DATE('2019-05-20', 'YYYY-MM-DD'), 'direktor');
+INSERT INTO radi_u VALUES ('0804989789123', 1, TO_DATE('2022-04-13', 'YYYY-MM-DD'), 'knjigovođa');
+INSERT INTO radi_u VALUES ('0801991235013', 1, TO_DATE('2024-02-19', 'YYYY-MM-DD'), 'psiholog');
+INSERT INTO radi_u VALUES ('1008965789130', 1, TO_DATE('2021-12-12', 'YYYY-MM-DD'), 'obezbeđenje');
+
+INSERT INTO firma_telefon VALUES (67890123, '0211234567');
+INSERT INTO firma_telefon VALUES (67890123, '0601234567');
+INSERT INTO firma_telefon VALUES (78901234, '0119876543');
+INSERT INTO firma_telefon VALUES (78901234, '0619876543');

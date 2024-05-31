@@ -1,0 +1,147 @@
+CREATE TABLE zatvorska_jedinica (
+	sifra INTEGER PRIMARY KEY,
+	naziv VARCHAR(50) NOT NULL,
+	kapacitet NUMBER(10) NOT NULL,
+	adresa VARCHAR(80),
+	upravnik_jmbg VARCHAR(13) REFERENCES zaposleni(jmbg),
+	otvoreni_rezim NUMBER(1) CHECK (otvoreni_rezim IN (0,1)),
+	poluotvoreni_rezim NUMBER(1) CHECK (poluotvoreni_rezim IN (0,1)),
+	period_zabrane_od VARCHAR(5),
+	period_zabrane_do VARCHAR(5),
+	strogi_rezim NUMBER(1) CHECK (strogi_rezim IN (0,1))
+);
+	
+CREATE TABLE zaposleni (
+	jmbg VARCHAR(13) PRIMARY KEY,
+	ime VARCHAR(30) NOT NULL,
+	prezime VARCHAR(30) NOT NULL,
+	datum_obuke DATE,
+	tip_zaposlenog VARCHAR(15) CHECK (tip_zaposlenog IN ('administracija', 'dirkon')),
+	zanimanje VARCHAR(30),
+	strucna_sprema VARCHAR(30),
+	tip_zaposlenog_dir_kon VARCHAR(15) CHECK (tip_zaposlenog_dir_kon IN ('psiholog', 'obezbeđenje'))
+);
+
+CREATE TABLE firma (
+	pib NUMBER(8) PRIMARY KEY CHECK (pib>10000000),
+	ime VARCHAR(50) NOT NULL,
+	adresa VARCHAR(80)
+);
+
+CREATE TABLE zatvorenik (
+	broj INTEGER PRIMARY KEY,
+	ime VARCHAR(30) NOT NULL,
+	prezime VARCHAR(30) NOT NULL,
+	adresa VARCHAR (80),
+	pol CHAR(1) CHECK (POL IN ('M', 'Z')) NOT NULL, 
+	status_uslovnog_otpusta VARCHAR(50),
+	datum_sledeceg_saslusanja DATE,
+	pib_firme NUMBER(8) REFERENCES firma(pib),
+    	advokat_jmbg VARCHAR(13) REFERENCES advokat(jmbg),
+    	sifra_zatvorske_jedinice INTEGER REFERENCES zatvorska_jedinica(sifra),
+    	advokat_datum DATE,
+    	advokat_posl_kontakt DATE
+);
+
+CREATE TABLE advokat (
+	jmbg VARCHAR(13) PRIMARY KEY,
+	ime VARCHAR(30) NOT NULL,
+	prezime VARCHAR(30) NOT NULL
+);
+
+CREATE TABLE prestup (
+	id INTEGER PRIMARY KEY,
+	naziv VARCHAR(50) NOT NULL,
+    	kategorija VARCHAR(50) NOT NULL,
+	opis VARCHAR(100) NOT NULL,
+    	min_kazna VARCHAR(20) NOT NULL,
+    	max_kazna VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE obuka_vatreno_oruzje (
+	sifra_sertifikata INTEGER PRIMARY KEY,
+	datum_izdavanja DATE NOT NULL,
+	policijska_uprava VARCHAR(30) NOT NULL,
+	radnik_obezbedjenja_jmbg VARCHAR(13) REFERENCES zaposleni(jmbg)
+);
+
+CREATE TABLE lekarski_pregled (
+	zaposleni_jmbg VARCHAR(13) NOT NULL,
+	datum DATE NOT NULL,
+	naziv_ustanove VARCHAR(30) NOT NULL,
+	adresa_ustanove VARCHAR(80) NOT NULL, 
+	lekar varchar(30) NOT NULL,
+	PRIMARY KEY(zaposleni_jmbg, datum),
+	CONSTRAINT zaposleni_fk1 FOREIGN KEY (zaposleni_jmbg) REFERENCES zaposleni(jmbg)
+);
+
+CREATE TABLE odgovorno_lice (
+	pib NUMBER(8) NOT NULL,
+	ime VARCHAR(30) NOT NULL,
+	prezime VARCHAR(30) NOT NULL,
+	PRIMARY KEY(pib, ime, prezime),
+	CONSTRAINT firma_fk1 FOREIGN KEY (pib) REFERENCES firma(pib)
+);
+
+CREATE TABLE termin_setnje (
+	sifra_zatvorske_jedinice INTEGER NOT NULL,
+	termin_od VARCHAR(5) NOT NULL,
+	termin_do VARCHAR(5) NOT NULL,
+	PRIMARY KEY(sifra_zatvorske_jedinice, termin_od, termin_do),
+	CONSTRAINT zatvorska_jedinica_fk1 FOREIGN KEY (sifra_zatvorske_jedinice) REFERENCES zatvorska_jedinica(sifra)
+);
+
+CREATE TABLE termin_posete (
+	sifra_zatvorske_jedinice INTEGER NOT NULL,
+	dan VARCHAR(10) NOT NULL,
+	termin_od VARCHAR(5) NOT NULL,
+	termin_do VARCHAR(5) NOT NULL,
+	PRIMARY KEY(sifra_zatvorske_jedinice, termin_od, termin_do),
+	CONSTRAINT zatvorska_jedinica_fk2 FOREIGN KEY (sifra_zatvorske_jedinice) REFERENCES zatvorska_jedinica(sifra)
+);
+
+CREATE TABLE saradnja (
+	sifra_zatvorske_jedinice INTEGER NOT NULL,
+	pib NUMBER(8) NOT NULL,
+	PRIMARY KEY(sifra_zatvorske_jedinice, pib),
+	CONSTRAINT zatvorska_jedinica_fk3 FOREIGN KEY (sifra_zatvorske_jedinice) REFERENCES zatvorska_jedinica(sifra),
+	CONSTRAINT firma_fk2 FOREIGN KEY (pib) REFERENCES firma(pib)
+);
+
+CREATE TABLE izvrsen_prestup (
+	id INTEGER PRIMARY KEY,
+	zatvorenik_broj INTEGER NOT NULL,
+	prestup_id INTEGER NOT NULL,
+	datum DATE NOT NULL,
+	mesto VARCHAR(50) NOT NULL,
+	CONSTRAINT zatvorenik_fk1 FOREIGN KEY (zatvorenik_broj) REFERENCES zatvorenik(broj),
+	CONSTRAINT prestup_fk FOREIGN KEY (prestup_id) REFERENCES prestup(id)
+);
+
+CREATE TABLE poseta (
+	id INTEGER PRIMARY KEY,
+	zatvorenik_broj INTEGER NOT NULL,
+	advokat_jmbg VARCHAR(13) NOT NULL,
+	datum DATE NOT NULL,
+	vreme_od VARCHAR(5) NOT NULL,
+	vreme_do VARCHAR(5) NOT NULL,
+	CONSTRAINT zatvorenik_fk2 FOREIGN KEY (zatvorenik_broj) REFERENCES zatvorenik(broj),
+	CONSTRAINT advokat_fk FOREIGN KEY (advokat_jmbg) REFERENCES advokat(jmbg)
+);
+
+CREATE TABLE radi_u (
+	zaposleni_jmbg VARCHAR(13) NOT NULL,
+	sifra_zatvorske_jedinice INTEGER NOT NULL,	
+	datum_pocetka_rada DATE NOT NULL,
+	naziv_radnog_mesta VARCHAR(30) NOT NULL,
+	PRIMARY KEY(zaposleni_jmbg, sifra_zatvorske_jedinice, datum_pocetka_rada),
+	CONSTRAINT zaposleni_fk2 FOREIGN KEY (zaposleni_jmbg) REFERENCES zaposleni(jmbg),
+	CONSTRAINT zatvorska_jedinica_fk4 FOREIGN KEY (sifra_zatvorske_jedinice) REFERENCES zatvorska_jedinica(sifra)
+);
+
+CREATE TABLE firma_telefon (
+	pib NUMBER(8) NOT NULL,	
+	broj_telefona VARCHAR(30) NOT NULL,
+	PRIMARY KEY (pib, broj_telefona),
+	CONSTRAINT firma_fk3 FOREIGN KEY (pib) REFERENCES firma(pib)
+);

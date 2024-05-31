@@ -1,0 +1,153 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="3.3.0" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.140" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forme za OSTALO\FPrestupi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FirmaTelefoni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FirmaOdgovornaLicaDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FirmaOdgovornaLica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FirmaDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FFirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FAdvokati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\AdvokatZatvorenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FirmaZatvorenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\OstaloMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\AdvokatDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\AdvokatZatvoreniciDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\AdvokatPosete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\AdvokatPoseteDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\FirmaZatvorskeJedinice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za OSTALO\PrestupDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\ObukeDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\Obuke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\LekarskiPregledi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\ZaposleniZaposlenja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\ZaposleniDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\ZaposleniZaposlenjaDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\ZaposleniZaposlenjaIzmeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zaposlene\LekarskiPregledDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciAngazovanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciPosete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciPrestupiIzmeni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciPrestupiDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciPrestupi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorenike\ZatvoreniciPoseteDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\ZatvorskeJediniceFirmeDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\PremestajOdrediste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\TerminiSetnje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\TerminiPosete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\TerminSetnjeDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\TerminPoseteDodaj.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\ZatvorskeJediniceFirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\ZatvorskeJediniceDodajZatvorenika.cs" />
+    <Compile Update="Forme za Zatvorske Jedinice\ZatvorskeJediniceDodajPostojeceg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\ZatvorskeJediniceZaposleni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forme za Zatvorske Jedinice\ZatvorskeJediniceZatvorenici.cs" />
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
