@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b5++P4iJCrI8UVACBWaTyaCZtYvDvzRcR7z8NW+raa43J4i9pJTldUTRd6gqQlg6AdOsd2Qa7Nbt9cuMLJMljw==",
+  "dgSpecHash": "ZuBmdkVsugKNovOqHh1oirJVMSudC1/kupl/jP33e/4sKCu502YFZs3ZEI/7xjUtU9yMBHvEZeHMGXwZh1FCGg==",
   "success": true,
-  "projectFilePath": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Jovanovic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.16\\microsoft.netcore.app.host.win-x64.7.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Klijent.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

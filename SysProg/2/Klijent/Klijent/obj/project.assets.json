@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Jovanovic\\.nuget\\packages\\": {}
+    "C:\\Users\\korisnik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
+      "projectUniqueName": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Klijent.csproj",
       "projectName": "Klijent",
-      "projectPath": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
-      "packagesPath": "C:\\Users\\Jovanovic\\.nuget\\packages\\",
-      "outputPath": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\obj\\",
+      "projectPath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Klijent.csproj",
+      "packagesPath": "C:\\Users\\korisnik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jovanovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,30 +61,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[7.0.16, 7.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[7.0.16, 7.0.16]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[7.0.16, 7.0.16]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[7.0.16, 7.0.16]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
       }
     }
   }

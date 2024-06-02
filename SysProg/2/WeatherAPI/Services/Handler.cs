@@ -12,7 +12,7 @@ namespace WeatherAPI.Services
 {
     public static class Handler
     {
-        public static async Task HandleRequestAsync(object contextObj, LFU cache)
+        public static async Task HandleRequestAsync(object contextObj, LFU cache, ApiService apiService)
         {
             HttpListenerContext context = (HttpListenerContext)contextObj;
 
@@ -20,8 +20,8 @@ namespace WeatherAPI.Services
             string requestMethod = context.Request.HttpMethod;
             string ime = requestUrl.Substring(1);
 
-            string day = "1";
-            var apiService = new ApiService("https://api.weatherapi.com/v1/forecast.json", "03b77707127e4e6c916140528242404", day);
+            //string day = "1";
+            //var apiService = new ApiService("https://api.weatherapi.com/v1/forecast.json", "03b77707127e4e6c916140528242404", day);
 
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();

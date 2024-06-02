@@ -25,13 +25,16 @@ namespace WeatherAPI
 
             // Kreiranje cache-a
             LFU lfu = new LFU(3); //3 smo stavili da vidimo stvarno da li izbacuje
+           
+            string day = "1";
+            var apiService = new ApiService("https://api.weatherapi.com/v1/forecast.json", "03b77707127e4e6c916140528242404", day);
 
             while (true)
             {
                 HttpListenerContext context = await listener.GetContextAsync();
                 //ovaj if smo stavili kako ne bismo nonstop imali warning za favicon
                 if (context.Request.Url.AbsolutePath != "/favicon.ico")
-                    await Task.Run(() => Handler.HandleRequestAsync(context, lfu));
+                    await Task.Run(() => Handler.HandleRequestAsync(context, lfu, apiService));
 
             }
 

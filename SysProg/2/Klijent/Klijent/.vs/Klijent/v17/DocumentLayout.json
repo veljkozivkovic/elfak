@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\",
+  "WorkspaceRootPath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7324A831-A5C0-4521-BA56-F5DB560A32E4}|Klijent.csproj|d:\\toma\\sistemsko\\i proj\\elfak\\sysprog\\1\\klijent\\klijent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7324A831-A5C0-4521-BA56-F5DB560A32E4}|Klijent.csproj|c:\\users\\korisnik\\desktop\\github\\elfak\\sysprog\\2\\klijent\\klijent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7324A831-A5C0-4521-BA56-F5DB560A32E4}|Klijent.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7324A831-A5C0-4521-BA56-F5DB560A32E4}|Klijent.csproj|D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\klijent.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{7324A831-A5C0-4521-BA56-F5DB560A32E4}|Klijent.csproj|C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\klijent.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{7324A831-A5C0-4521-BA56-F5DB560A32E4}|Klijent.csproj|solutionrelative:klijent.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Klijent",
-              "DocumentMoniker": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
+              "DocumentMoniker": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Klijent.csproj",
               "RelativeDocumentMoniker": "Klijent.csproj",
-              "ToolTip": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Klijent.csproj",
+              "ToolTip": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Klijent.csproj",
               "RelativeToolTip": "Klijent.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-05-20T07:52:30.513Z"
@@ -35,9 +35,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Toma\\Sistemsko\\I proj\\elfak\\SysProg\\1\\Klijent\\Klijent\\Program.cs",
+              "ToolTip": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\Klijent\\Klijent\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAQAAAAAAAAAAAAUwF0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
