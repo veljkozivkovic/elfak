@@ -55,7 +55,7 @@ namespace WeatherAPI.Services
                     context.Response.ContentLength64 = buffer.Length;
                     context.Response.ContentType = "text/plain; charset=utf-8"; // da pise latinicu
                     await context.Response.OutputStream.WriteAsync(buffer, 0, buffer.Length);
-                    context.Response.OutputStream.Close();
+                    //context.Response.OutputStream.Close();//ovo isto ne valja jer je close posle await moze da se zatvori ako await funkcija dugo radi, zato bolje u finally
                 }
 
                 stopwatch.Stop();
@@ -73,7 +73,7 @@ namespace WeatherAPI.Services
 
             finally
             {
-                context.Response.OutputStream.Close();
+                context.Response.OutputStream.Close(); //ovde treba 
             }
         }
 
