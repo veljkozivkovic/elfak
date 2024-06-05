@@ -1,0 +1,929 @@
+﻿@WebAPIZatvor_HostAddress = http://localhost:5244
+
+###ZATVORSKE JEDINICE========================================================================================================================
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSveZatvore
+Accept: application/json
+### Testiranje GET metode za vracanje svih zatvora
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvoreZaFirmu/78901234 
+Accept: application/json
+### Testiranje GET metode za vraćanje zatvora za firmu
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvoreZaFirmu/9876543
+Accept: application/json
+
+### Proba sa greškom 404 za vracanje zatvora za firmu
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajZatvorskuJedinicu?tip=Otvorena
+Content-Type: application/json
+
+{
+  "Naziv": "Otvoreni Zatvor XYZ",
+  "Kapacitet": 200,
+  "Adresa": "Adresa 123",
+  "PeriodZabraneOd": "21:00",
+  "PeriodZabraneDo": "06:00"
+}
+
+### Testiranje POST metode za dodavanje otvorene zatvorske jedinice
+
+POST {{WebAPIZatvor_HostAddress}}/DodajZatvorskuJedinicu?tip=Zatvorena
+Content-Type: application/json
+
+{
+  "Naziv": "Zatvoreni Zatvor zabela",
+  "Kapacitet": 200,
+  "Adresa": "Adresa 123",
+  "PeriodZabraneOd": "",
+  "PeriodZabraneDo": ""
+}
+###Testiranje post metoda za Zatvorene zatvorske jedinice
+
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiZatvor/164
+Accept: application/json
+### Testiranje DELETE metode za brisanje zatvora
+
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniZatvorskuJedinicu
+Content-Type: application/json
+Accept: application/json
+
+{
+  "Id": 162,
+  "Naziv": "Novi naziv zatvora",
+  "Kapacitet": 300,
+  "Adresa": "Nova adresa 456",
+  "PeriodZabraneOd": "04:20",
+  "PeriodZabraneDo": "23:23"
+}
+
+###
+### Testiranje PUT metode za izmenu zatvora
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvorskuJedinicu/164?tip=Zatvorena
+Accept: application/json
+
+
+### Testiranje GET metode za vracanje zatvorske jedinice
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiMoguceUpravnike/2
+Accept: application/json
+
+
+### Testiranje GET metode za vraćanje mogućih upravnika
+
+  
+  
+POST {{WebAPIZatvor_HostAddress}}/DodeliUpravnika
+Content-Type: application/json
+
+{
+  "zaposleniJMBG": "1505963789120",
+  "zatvorskaJedinicaId": 2
+}
+### Testiranje POST metode za dodelu upravnika
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiUpravnika/2
+Accept: application/json
+
+
+### Testiranje GET metode za dohvat upravnika zatvora
+
+
+
+###TERMINI POSETE========================================================================================================================
+
+
+  
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiTerminePosete/1
+Accept: application/json
+### Testiranje GET metode za dohvat termina posete na osnovu id zatvora
+//id zatvorske jedinice ubacujes
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajTerminPosete/1
+Content-Type: application/json
+
+{
+  "Dan": "Ponedeljak",
+  "TerminOd": "10:00",
+  "TerminDo": "12:00"
+}
+###testiranje post metode za dodavanje termina posete zatovru
+//id zatvora treba
+
+POST {{WebAPIZatvor_HostAddress}}/IzmeniTerminPosete
+Content-Type: application/json
+
+{
+  "Id": 81,
+  "Dan": "Ponedeljak",
+  "TerminOd": "09:00",
+  "TerminDo": "10:00"
+}
+###izmena termina posete
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiTerminPosete/81
+Accept: application/json
+###vrati termin pposete
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiTerminPosete/82
+Accept: application/json
+###brisanje termina posete
+
+
+
+###TERMINI SETNJE========================================================================================================================
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiTermineSetnje/1
+Accept: application/json
+
+### Testiranje GET metode za vracanje termina setnje na osnovu id za tvora
+
+POST {{WebAPIZatvor_HostAddress}}/DodajTerminSetnje?idZatvorskeJedinice=164
+Content-Type: application/json
+
+{
+  "TerminOd": "10:00",
+  "TerminDo": "15:00"
+}
+
+### Testiranje POST metode za dodavanje termina setnje
+
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniTerminSetnje
+Content-Type: application/json
+
+{
+  "Id": 81,
+  "TerminOd": "08:08",
+  "TerminDo": "08:08"
+}
+### Testiranje PUT metode za izmenu termina setnje
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiTerminSetnje?id=81
+Accept: application/json
+### Testiranje GET metode za vracanje termina setnje
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiTerminSetnje?id=82
+Accept: application/json
+### Testiranje DELETE metode za brisanje termina setnje
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSveTermineSetnje
+Accept: application/json
+### Testiranje GET metode za vracanje svih termina setnje
+
+  
+  
+  
+###ZATVORENICI========================================================================================================================
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvorenikeZaZatvorskuJedinicu?idZatvorskeJedinice=150
+Accept: application/json
+### Testiranje GET metode za vracanje zatvorenika za zatvorsku jedinicu
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvorenikeZaAdvokata?advokatJMBG=1905963789120
+Accept: application/json
+### Testiranje GET metode za vracanje zatvorenika za advokata
+//ovde je za advokata jovana
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiMoguceZatvorenikeZaAdvokata?advokatJMBG=2306988751230 
+Accept: application/json
+### Testiranje GET metode za vracanje mogucih zatvorenika za advokata
+//ovde su svi moguci znaci zatvorenici koje ovaj advokat ne zastupa
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvorenikeZaFirmu?firmaPIB=67890123
+Accept: application/json
+### Testiranje GET metode za vracanje zatvorenika za firmu
+//jos jedan pib da se nadje : 78901234
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiPotencijalneRadnike?firmaPIB=67890123
+Accept: application/json
+### Testiranje GET metode za vracanje potencijalnih radnika za firmu
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajZatvorenika?idZatvorskeJedinice=1
+Content-Type: application/json
+
+{
+    "Ime": "John",
+    "Prezime": "Doe",
+    "Adresa": "123 blabla",
+    "Pol": "M",
+    "StatusUslovnogOtpusta": "Nije podnet",
+    "DatumSledecegSaslusanja": "2024-06-01T00:00:00",
+    "Advokat": {
+        "JMBG": "2306988751230"
+    },
+    "AdvokatDatum": "2024-05-01T00:00:00",
+    "AdvokatPoslednjiKontakt": "2024-05-25T00:00:00"
+}
+### Testiranje POST metode za dodavanje zatvorenika
+
+
+POST {{WebAPIZatvor_HostAddress}}/IzmeniZatvorenika?idZatvorskeJedinice=1
+Content-Type: application/json
+
+{
+    "Id": 122,
+    "Ime": "JOVAN",
+    "Prezime": "Doe",
+    "Adresa": "123 Main Street",
+    "Pol": "M",
+    "StatusUslovnogOtpusta": "Nije podnet",
+    "DatumSledecegSaslusanja": "2024-06-01T00:00:00",
+    "Advokat": {
+        "JMBG": "2306988751230"
+    },
+    "AdvokatDatum": "2024-05-01T00:00:00",
+    "AdvokatPoslednjiKontakt": "2024-05-25T00:00:00"
+}
+### Testiranje POST metode za izmenu zatvorenika
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZatvorenika?id=122
+
+### Testiranje GET metode za vracanje zatvorenika
+
+    
+    
+    
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiZatvorenika?id=122
+
+### Testiranje POST metode za brisanje zatvorenika
+
+    
+    
+GET {{WebAPIZatvor_HostAddress}}/VratiSveZatvorenike
+### Testiranje GET metode za vracanje svih zatvorenika
+
+    
+    
+    
+    
+    
+    
+    
+###ADVOKATI========================================================================================================================
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSveAdvokate
+
+### Testiranje GET metode za vracanje svih advokata
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiAdvokata?jmbg=1212984772343
+### Testiranje GET metode za vracanje advokata
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajAdvokata
+Content-Type: application/json
+
+{
+    "JMBG": "1234567890123",
+    "Ime": "Marko",
+    "Prezime": "Markovic"
+}
+### Testiranje POST metode za dodavanje advokata
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/IzmeniAdvokata
+Content-Type: application/json
+
+{
+    "JMBG": "1234567890123",
+    "Ime": "NovoIme",
+    "Prezime": "NovoPrezime"
+}
+### Testiranje POST metode za izmenu advokata
+
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiAdvokata?advokatJMBG=1234567890123
+Content-Type: application/json
+
+### Testiranje POST metode za brisanje advokata
+
+POST {{WebAPIZatvor_HostAddress}}/DodajZastupanje?zatvorenikId=122&advokatJMBG=1234567890123
+Content-Type: application/json
+
+### Testiranje POST metode za dodavanje zastupanja
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/OtkaziZastupanje?zatvorenikId=122
+Content-Type: application/json
+
+### Testiranje POST metode za otkazivanje zastupanja
+
+
+
+
+###ZAPOSLENI========================================================================================================================
+//JEBENI TODO JEBEMTI GOVNO
+
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZaposleneZaZatvorskuJedinicu?idZatvorskeJedinice=150
+Content-Type: application/json
+### Testiranje GET metode za vracanje zaposlenih za zatvorsku jedinicu
+
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajZaposlenog?tipZaposlenog=obezbedjenje
+Content-Type: application/json
+
+{
+    "JMBG": "1308985720545",
+    "Ime": "Drugi Milorad",
+    "Prezime": "Drugi Sharenac",
+    "DatumObuke": "1999-08-13T00:00:00",
+    "Zanimanje": "moler",
+    "StrucnaSprema": "srednja"
+}
+### Testiranje POST metode za dodavanje zaposlenog
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZaposlenog?id=1308985720545
+Content-Type: application/json
+### vrati milorada!!
+
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniZaposlenog
+Content-Type: application/json
+
+{
+    "JMBG": "1308985720545",
+    "Ime": "Novi Milorad",
+    "Prezime": "Novi Sharenacc",
+    "DatumObuke": "1999-08-13T00:00:00",
+    "TipZaposlenog": "obezbedjenje",
+    "Zanimanje": "das",
+    "StrucnaSprema": "asdasd"
+}
+### izmeni milorada
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiZaposlenog/1308985720545
+
+
+
+
+
+
+
+
+
+
+    
+    
+GET {{WebAPIZatvor_HostAddress}}/VratiSveZaposlene
+Content-Type: application/json
+### testiranje get metode za vracanje svih zaposlenih ikad    
+
+// ovde je get za administraciju radnika
+GET {{WebAPIZatvor_HostAddress}}/VratiZaposlenog?id=0101978723456
+Content-Type: application/json
+
+### Testiranje GET metode za vracanje zaposlenog administracija
+
+// za radnika obezbedjenja
+GET {{WebAPIZatvor_HostAddress}}/VratiZaposlenog?id=3003992789127
+Content-Type: application/json
+### Testiranje GET metode za vracanje zaposlenog obezbedjenje
+
+    
+//get za psihologa
+GET {{WebAPIZatvor_HostAddress}}/VratiZaposlenog?id=1008965789130
+Content-Type: application/json
+### testiranje GET metode za vracanje zaposlenog psiholog  
+
+
+
+
+
+
+
+
+//zaposlenja sadddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiZaposlenjaZaZaposlenog?zaposleniJMBG=1308985720543
+Content-Type: application/json
+
+### Testiranje GET metode za vracanje zaposlenja za zaposlenog
+
+
+POST {{WebAPIZatvor_HostAddress}}/ZaposliRadnika?idZaposlenog=1308985720543
+Content-Type: application/json
+
+{
+    "NazivRadnogMesta": "za izmenu pravnik",
+    "DatumPocetkaRada": "2020-01-01T00:00:00",
+    "ZatvorskaJedinicaId": 150
+}
+### testiranje POST metode za zaposljavanje radnika
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniRadnoMesto
+Content-Type: application/json
+
+{
+    "zaposleniJMBG": "1308985720543",
+    "zatvorskaJedinicaId": 150,
+    "staroRadnoMesto": "za izmenu pravnik",
+    "radnoMestoNaziv": "izmenjen pravnik",
+    "datumZaposlenja": "2024-06-15T00:00:00"
+}
+
+### Testiranje PUT metode za izmenu radnog mesta
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiRadnoMesto
+Content-Type: application/json
+
+{
+    "zaposleniJMBG": "1308985720543",
+    "zatvorskaJedinicaId": 150,
+    "radnoMestoNaziv": "izmenjen pravnik"
+}
+
+### Testiranje DELETE metode za brisanje radnog mesta
+    
+###LEKARSKI-PREGLEDI========================================================================================================================
+    
+    
+GET {{WebAPIZatvor_HostAddress}}/VratiLekarskePreglede?zaposleniJMBG=1008965789130
+Content-Type: application/json
+### Testiranje GET metode za vracanje lekarskih pregleda za zaposlenog
+
+    
+    
+POST {{WebAPIZatvor_HostAddress}}/DodajLekarskiPregled?zaposleniJMBG=1008965789130
+Content-Type: application/json
+
+{
+  "Datum": "2023-01-01T00:00",
+  "NazivUstanove": "Opsta bolnica",
+  "AdresaUstanove": "Ulica 1, Grad",
+  "Lekar": "Dr. Ime Prezime"
+}
+### Testiranje POST metode za dodavanje lekarskog pregleda
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/IzmeniLekarskiPregled
+Content-Type: application/json
+
+{
+  "id": 62,
+  "datum": "2024-04-11T00:00:00",
+  "nazivUstanove": "Dom zdravlja Novi Beograd",
+  "adresaUstanove": "Kralja Milutina 18, Beograd",
+  "lekar": "Ana Bekuta"
+}
+### Testiranje POST metode za izmenu lekarskog pregleda
+
+  
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiLekarskiPregled?id=62
+Content-Type: application/json
+### Testiranje DELETE metode za brisanje lekarskog pregleda
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiLekarskiPregled?id=62
+Content-Type: application/json
+### Testiranje GET metode za vracanje lekarskog pregleda
+
+  
+GET {{WebAPIZatvor_HostAddress}}/VratiSveLekarskePreglede
+Content-Type: application/json
+### Testiranje GET metode za vracanje svih lekarskih pregleda
+
+
+
+
+###OBUKE========================================================================================================================
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiObuke?zaposleniJMBG=1008965789130
+Content-Type: application/json
+### Testiranje GET metode za vracanje obuka za zaposlenog
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajObuku?zaposleniJMBG=1008965789130
+Content-Type: application/json
+
+{
+  "DatumIzdavanja": "2024-06-01T00:00:00",
+  "PolicijskaUprava": "Policijska uprava Nish"
+}
+### Testiranje POST metode za dodavanje obuke
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniObuku
+Content-Type: application/json
+
+{
+  "Id": 82,
+  "DatumIzdavanja": "2024-06-01T00:22:00",
+  "PolicijskaUprava": "PU Novi Sad"
+}
+### Testiranje PUT metode za izmenu obuke
+
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiObuku?id=82
+### Testiranje DELETE metode za brisanje obuke
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiObuku?id=82
+### Testiranje GET metode za vracanje obuke
+
+  
+  
+  
+  
+
+
+###PRESTUPI========================================================================================================================
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSvePrestupe
+### Testiranje GET metode za vracanje svih prestupa
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajPrestup
+Content-Type: application/json
+
+{
+  "Naziv": "Novi prestup",
+  "Kategorija": "Kategorija",
+  "Opis": "Opis prestupa",
+  "MinKazna": "1 godina",
+  "MaxKazna": "10 godina"
+}
+### Testiranje POST metode za dodavanje prestupa
+//81
+
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniPrestup
+Content-Type: application/json
+
+{
+  "Id": 82,
+  "Naziv": "Izmenjen prestup",
+  "Kategorija": "Nova kategorija",
+  "Opis": "Novi opis prestupa",
+  "MinKazna": "5 godina",
+  "MaxKazna": "15 godina"
+}
+### Testiranje PUT metode za izmenu prestupa
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiPrestup/81
+### Testiranje DELETE metode za brisanje prestupa
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiPrestup?id=81
+### Testiranje GET metode za vracanje prestupa
+
+
+###IZVRSENI-PRESTUPI========================================================================================================================
+
+GET {{WebAPIZatvor_HostAddress}}/VratiIzvrsenePrestupe?zatvorenikID=2
+Content-Type: application/json
+### Testiranje GET metode za vracanje izvrsenih prestupa za zatvorenika
+  
+  
+POST {{WebAPIZatvor_HostAddress}}/DodajIzvrsenPrestup
+Content-Type: application/json
+
+{
+    "IdZatvorenika": 2,
+    "IdPrestupa": 10,
+    "Datum": "2023-05-15T00:00:00",
+    "Mesto": "Beograd"
+}
+### Testiranje POST metode za dodavanje izvrsenog prestupa
+  
+  
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniIzvrsenPrestup
+Content-Type: application/json
+
+{
+    "Id": 104,
+    "Datum": "2023-05-15T00:00:00",
+    "Mesto": "Mirijevo"
+}
+
+### Testiranje PUT metode za izmenu izvrsenog prestupa
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiIzvrsenPrestup/104
+Content-Type: application/json
+### Testiranje GET metode za vracanje izvrsenog prestupa
+
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiIzvrsenPrestup/104
+Content-Type: application/json
+### Testiranje DELETE metode za brisanje izvrsenog prestupa
+  
+
+
+
+
+
+
+
+###FIRME========================================================================================================================
+  
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSveFirme
+Content-Type: application/json
+### Testiranje GET metode za vracanje svih firmi
+
+
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajFirmu
+Content-Type: application/json
+
+{
+    "PIB": "11111111",
+    "Ime": "Nova firma",
+    "Adresa": "Nova adresa"
+}
+### Testiranje POST metode za dodavanje firme
+
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/IzmeniFirmu
+Content-Type: application/json
+
+{
+    "PIB": "11111111",
+    "Ime": "Novo ime firme",
+    "Adresa": "Nova adresa firme"
+}
+### Testiranje POST metode za izmenu firme
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiFirmu/11111111
+### Testiranje GET metode za vracanje firme
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiFirmu
+Content-Type: application/json
+
+11111111
+### Testiranje POST metode za brisanje firme
+
+
+
+
+
+//106 miki ima firmu
+GET {{WebAPIZatvor_HostAddress}}/VratiFirmuZatvorenika?zatvorenikId=109
+### Testiranje GET metode za vracanje firme zatvorenika
+
+
+//firme koje saradjuju sa zatvorom odakle je zatvorenik ce izaci tj potencijalne firme
+GET {{WebAPIZatvor_HostAddress}}/VratiFirmeZaZatvorenika?zatvorenikId=109
+Content-Type: application/json
+### Testiranje GET metode za vracanje firmi za zatvorenika
+
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiFirmeZaZatvorskuJedinicu?zatvorskaJedinicaId=150
+Content-Type: application/json
+### Testiranje GET metode za vracanje firmi za zatvorsku jedinicu
+
+
+//vraca sve firme koje NE saradjuju sa zatvorskom jedinicom i potencijalni su saradnici
+GET {{WebAPIZatvor_HostAddress}}/VratiSveFirmeZaSaradnju?zatvorskaJedinicaId=150
+Content-Type: application/json
+### Testiranje GET metode za vracanje svih firmi za saradnju
+
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/ZaposliZatvorenika?zatvorenikId=109&firmaPIB=11111111
+Content-Type: application/json
+### Testiranje POST metode za zaposljavanje zatvorenika
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/DajOtkazZatvoreniku?zatvorenikId=109
+Content-Type: application/json
+### Testiranje POST metode za davanje otkaza zatvoreniku
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/ZapocniSaradnju?zatvorskaJedinicaId=150&firmaPIB=11111111
+
+### Testiranje POST metode za zapocinjanje saradnje
+
+
+POST {{WebAPIZatvor_HostAddress}}/OtkaziSaradnju?zatvorskaJedinicaId=150&firmaPIB=11111111
+
+### Testiranje POST metode za otkazivanje saradnje
+
+
+
+
+
+
+
+
+
+###POSETE========================================================================================================================
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSvePosete
+Content-Type: application/json
+### Testiranje GET metode za vracanje svih poseta
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiPoseteZaZatvorenika?zatvorenikID=106
+Content-Type: application/json
+### Testiranje GET metode za vracanje poseta za zatvorenika
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiPoseteZaAdvokata?advokatJMBG=1212984772343
+Content-Type: application/json
+### Testiranje GET metode za vracanje poseta za advokata
+
+
+//za zatvorenika milana matica 106
+POST {{WebAPIZatvor_HostAddress}}/DodajPosetu
+Content-Type: application/json
+
+{
+    "ZatvorenikId": 106,
+    "Datum": "2024-06-30T00:00:00",
+    "VremeOd": "04:20",
+    "VremeDo": "06:00"
+}
+### Testiranje POST metode za dodavanje posete
+
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniPosetu
+Content-Type: application/json
+
+{
+    "Id": 102,
+    "Datum": "2024-07-01T00:00:00",
+    "VremeOd": "10:00",
+    "VremeDo": "12:00"
+}
+### Testiranje PUT metode za izmenu posete
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiPosetu/101
+### Testiranje DELETE metode za brisanje posete
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiPosetu/81
+### Testiranje GET metode za vracanje posete
+
+    
+###ODGOVORNA-LICA========================================================================================================================
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSvaOdgovornaLica
+### Testiranje GET metode za vracanje svih odgovornih lica
+
+
+
+// drugi vazeci pib : 78901234
+GET {{WebAPIZatvor_HostAddress}}/VratiOdgovornaLicaZaFirmu?firmaPIB=67890123 
+Content-Type: application/json
+### Testiranje GET metode za vracanje odgovornih lica za firmu 
+
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiOdgovornoLice?id=62
+Content-Type: application/json
+### Testiranje GET metode za vracanje odgovornog lica
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajOdgovornoLice?firmaPIB=67890123
+Content-Type: application/json
+
+{
+    "Ime": "Marko",
+    "Prezime": "Markovic"
+}
+### Testiranje POST metode za dodavanje odgovornog lica
+
+
+
+PUT {{WebAPIZatvor_HostAddress}}/IzmeniOdgovornoLice
+Content-Type: application/json
+
+{
+    "Id": 82,
+    "Ime": "Novi Marko",
+    "Prezime": "Novi Markovic"
+}
+### Testiranje PUT metode za izmenu odgovornog lica
+
+
+DELETE {{WebAPIZatvor_HostAddress}}/ObrisiOdgovornoLice/82
+### Testiranje DELETE metode za brisanje odgovornog lica
+
+
+
+
+
+
+
+
+
+
+
+
+
+###FIRMA-TELEFON========================================================================================================================
+
+GET {{WebAPIZatvor_HostAddress}}/VratiSveTelefone
+### Testiranje GET metode za vracanje svih telefona
+
+GET {{WebAPIZatvor_HostAddress}}/VratiTelefoneZaFirmu/67890123 
+### Testiranje GET metode za vracanje telefona za firmu
+
+
+
+GET {{WebAPIZatvor_HostAddress}}/VratiTelefon/63
+### Testiranje GET metode za vracanje telefona
+
+
+POST {{WebAPIZatvor_HostAddress}}/DodajTelefon?FirmaPIB=67890123
+Content-Type: application/json
+
+{
+    "BrojTelefona": "0222233333"
+}
+### Testiranje POST metode za dodavanje telefona
+
+
+POST {{WebAPIZatvor_HostAddress}}/IzmeniTelefon
+Content-Type: application/json
+
+{
+    "Id": 63,
+    "BrojTelefona": "4444444444"
+}
+### Testiranje POST metode za izmenu telefona
+
+
+
+POST {{WebAPIZatvor_HostAddress}}/ObrisiTelefon?id=63
+### Testiranje POST metode za brisanje telefona
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,11 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA150EC7-85CA-4D16-96F1-DC01AF85DE2C}|WeatherAPI.csproj|C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\services\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA150EC7-85CA-4D16-96F1-DC01AF85DE2C}|WeatherAPI.csproj|c:\\users\\korisnik\\desktop\\github\\elfak\\sysprog\\2\\weatherapi\\services\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA150EC7-85CA-4D16-96F1-DC01AF85DE2C}|WeatherAPI.csproj|solutionrelative:services\\handler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA150EC7-85CA-4D16-96F1-DC01AF85DE2C}|WeatherAPI.csproj|c:\\users\\korisnik\\desktop\\github\\elfak\\sysprog\\2\\weatherapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA150EC7-85CA-4D16-96F1-DC01AF85DE2C}|WeatherAPI.csproj|C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA150EC7-85CA-4D16-96F1-DC01AF85DE2C}|WeatherAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,9 +58,9 @@
               "Title": "Handler.cs",
               "DocumentMoniker": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\Services\\Handler.cs",
               "RelativeDocumentMoniker": "Services\\Handler.cs",
-              "ToolTip": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\Services\\Handler.cs*",
-              "RelativeToolTip": "Services\\Handler.cs*",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBYAAAAMAAAA",
+              "ToolTip": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\Services\\Handler.cs",
+              "RelativeToolTip": "Services\\Handler.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBcAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-29T21:44:23.512Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Services\\ApiService.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwBoAAABOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:44:23.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:44:23.602Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Utils\\WeatherUtil.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:44:23.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:44:23.601Z"
             },
             {
               "$type": "Document",
@@ -97,12 +95,11 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABsAAAAAAAAA",
+              "ToolTip": "C:\\Users\\korisnik\\Desktop\\GitHub\\elfak\\SysProg\\2\\WeatherAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCQAAABcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:44:23.603Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:44:23.603Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "LFUCache\\LFUCache.cs",
               "ViewState": "AQIAAFMAAAAAAAAAAAAIwEAAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T21:44:23.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-29T21:44:23.598Z"
             },
             {
               "$type": "Document",

@@ -11,7 +11,7 @@ namespace Klijent
         static void Main(string[] args)
         {
             // Lista sa imenima gradova
-            List<string> gradovi = new List<string> { "Belgrade", "Moscow", "Zagreb", "Podgorica", "Paris", "Berlin", "Rome", "London" };
+            List<string> gradovi = new List<string> { "Belgrade", "Moscow", "Zagreb", "Podgorica", "Paris", "Berlin", "Rome", "London", "asdjiasdojasd" };
 
             // Kreiranje i pokretanje niti za svaki grad
             foreach (string grad in gradovi)

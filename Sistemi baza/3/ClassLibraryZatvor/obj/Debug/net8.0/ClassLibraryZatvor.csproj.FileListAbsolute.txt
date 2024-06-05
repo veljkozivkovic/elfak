@@ -1,0 +1,12 @@
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.AssemblyReference.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfoInputs.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfo.cs
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.deps.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\refint\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ref\ClassLibraryZatvor.dll
