@@ -1,0 +1,154 @@
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.csproj.AssemblyReference.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.AssemblyInfoInputs.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.AssemblyInfo.cs
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\appsettings.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.exe
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.deps.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.runtimeconfig.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Antlr3.Runtime.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\FluentNHibernate.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Iesi.Collections.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\NHibernate.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Remotion.Linq.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Remotion.Linq.EagerFetching.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.WebAPIZatvor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPIZatvor.props
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPIZatvor.props
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPIZatvor.props
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\scopedcss\bundle\WebAPIZatvor.styles.css
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZa.4799DD33.Up2Date
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\refint\WebAPIZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.genruntimeconfig.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\ref\WebAPIZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\App.config
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.dll.config
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\App.config
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\appsettings.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.exe
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.deps.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.runtimeconfig.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.pdb
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Antlr3.Runtime.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\FluentNHibernate.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Iesi.Collections.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\NHibernate.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Remotion.Linq.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Remotion.Linq.EagerFetching.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.csproj.AssemblyReference.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.AssemblyInfoInputs.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.AssemblyInfo.cs
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.csproj.CoreCompileInputs.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.WebAPIZatvor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPIZatvor.props
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPIZatvor.props
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPIZatvor.props
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\scopedcss\bundle\WebAPIZatvor.styles.css
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZa.4799DD33.Up2Date
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\refint\WebAPIZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.pdb
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.genruntimeconfig.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\obj\Debug\net8.0\ref\WebAPIZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll.config
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.dll.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\App.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\appsettings.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.exe
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.dll.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.deps.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.runtimeconfig.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\WebAPIZatvor.pdb
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Antlr3.Runtime.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\FluentNHibernate.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Iesi.Collections.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\NHibernate.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Remotion.Linq.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Remotion.Linq.EagerFetching.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\runtimes\linux\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\runtimes\osx\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.csproj.AssemblyReference.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.AssemblyInfoInputs.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.AssemblyInfo.cs
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.WebAPIZatvor.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.build.WebAPIZatvor.props
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WebAPIZatvor.props
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WebAPIZatvor.props
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\scopedcss\bundle\WebAPIZatvor.styles.css
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZa.4799DD33.Up2Date
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\refint\WebAPIZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.pdb
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\WebAPIZatvor.genruntimeconfig.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\WebAPIZatvor\obj\Debug\net8.0\ref\WebAPIZatvor.dll

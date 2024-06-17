@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIZatvor", "WebAPIZatvor\WebAPIZatvor.csproj", "{5145024F-577D-419A-802B-25C4E5C61D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryZatvor", "ClassLibraryZatvor\ClassLibraryZatvor.csproj", "{12E7B0AE-FF05-48D8-99A4-5904E119393A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5145024F-577D-419A-802B-25C4E5C61D89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5145024F-577D-419A-802B-25C4E5C61D89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5145024F-577D-419A-802B-25C4E5C61D89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5145024F-577D-419A-802B-25C4E5C61D89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E7B0AE-FF05-48D8-99A4-5904E119393A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E7B0AE-FF05-48D8-99A4-5904E119393A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E7B0AE-FF05-48D8-99A4-5904E119393A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E7B0AE-FF05-48D8-99A4-5904E119393A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05CEA85D-ADB9-451C-9C06-DFF8A1B8955A}
+	EndGlobalSection
+EndGlobal

@@ -34,7 +34,7 @@ namespace WeatherAPI
                 HttpListenerContext context = await listener.GetContextAsync();
                 //ovaj if smo stavili kako ne bismo nonstop imali warning za favicon
                 if (context.Request.Url.AbsolutePath != "/favicon.ico")
-                    await Task.Run(() => Handler.HandleRequestAsync(context, lfu, apiService));
+                    await Task.Run(() => Handler.HandleRequestAsync(context, lfu, apiService)); //ne valja sto je main task i poziva task
 
             }
 

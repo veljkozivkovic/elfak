@@ -1,0 +1,40 @@
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.AssemblyReference.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfoInputs.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfo.cs
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.deps.json
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\refint\ClassLibraryZatvor.dll
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Desktop\Sistemi baza\Finalno drugi deo, radim za treci\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ref\ClassLibraryZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.deps.json
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.AssemblyReference.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfoInputs.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfo.cs
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.CoreCompileInputs.cache
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\refint\ClassLibraryZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\obj\Debug\net8.0\ref\ClassLibraryZatvor.dll
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\App.config
+C:\Users\dusan\Desktop\Elfak\4 SISTEMI BAZA PODATAKA\3 PROJEKAT\Treca faza\ZatvorTreciDeo\ZatvorTreciDeo\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\bin\Debug\net8.0\App.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll.config
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.deps.json
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\bin\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.AssemblyReference.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfoInputs.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.AssemblyInfo.cs
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.csproj.CoreCompileInputs.cache
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\refint\ClassLibraryZatvor.dll
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ClassLibraryZatvor.pdb
+C:\Users\korisnik\Downloads\Zatvor - Treca faza\sbp_zatvor\ClassLibraryZatvor\obj\Debug\net8.0\ref\ClassLibraryZatvor.dll
