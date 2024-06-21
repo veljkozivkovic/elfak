@@ -1,0 +1,142 @@
+.mainMain {
+  flex-direction: column;
+  height: 100vh;
+}
+
+.mainContentFlex {
+  margin: 20px;
+  flex: 1;
+  justify-content: space-between;
+  overflow: hidden;
+  height: min-content;
+}
+
+.contentContainerFlex {
+  border: 1px dashed black;
+  width: 33%;
+  padding: 10px;
+  color: #5a5959;
+  overflow: hidden;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentStack {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.reservationAndVisitedDiv {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservationAndVisitedDivBox {
+  width: 25%;
+  max-width: 30%;
+  text-align: center;
+  padding: 0;
+}
+
+.reservationAndVisitedDivText {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.statisticsCard {
+  width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+  .mainMain {
+    height: unset;
+  }
+
+  .statisticsCard {
+    width: 100%;
+  }
+
+  .mainContentFlex {
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    height: 100vh;
+    flex: 1;
+  }
+
+  .contentContainerFlex {
+    width: 90%;
+    height: 500px;
+    text-align: center;
+    overflow: visible;
+  }
+
+  .contentStack {
+    overflow-y: unset;
+    min-height: fit-content;
+  }
+
+  .reservationAndVisitedDiv {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .reservationAndVisitedDivBox {
+    width: 100%;
+    max-width: 100%;
+    row-gap: 10px;
+  }
+
+  .reservationAndVisitedDivText {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}
+
+.ldsRing,
+.ldsRing div {
+  box-sizing: border-box;
+}
+.ldsRing {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 60px;
+  width: 80px;
+  height: 80px;
+}
+.ldsRing div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid rgba(6, 35, 67, 1);
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgba(6, 35, 67, 1) transparent transparent transparent;
+}
+.ldsRing div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsRing div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsRing div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,91 @@
+.ldsRing,
+.ldsRing div {
+  box-sizing: border-box;
+}
+.ldsRing {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 60px;
+  width: 80px;
+  height: 80px;
+}
+.ldsRing div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid rgba(6, 35, 67, 1);
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgba(6, 35, 67, 1) transparent transparent transparent;
+}
+.ldsRing div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsRing div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsRing div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.gradiental {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(
+    174.2deg,
+    rgba(255, 244, 228, 1) 7.1%,
+    rgba(240, 246, 238, 1) 67.4%
+  );
+}
+
+.container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.infoContainer {
+  width: 30%;
+  height: 90%;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.mainContentContainer {
+  width: 45%;
+  height: 80%;
+  border-radius: 20px;
+  border: none;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    overflow: visible;
+  }
+  .mainContentContainer {
+    width: 90%;
+  }
+
+  .infoContainer {
+    width: 80%;
+  }
+}

@@ -1,0 +1,9 @@
+.mainContentFlex {
+  margin: 20px;
+  flex: 1;
+  justify-content: start;
+  align-items: start;
+  /* overflow: hidden; */
+  height: 100vh;
+  flex-direction: column;
+}

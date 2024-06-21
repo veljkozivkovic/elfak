@@ -1,0 +1,8 @@
+body {
+  min-height: 100vh;
+  /* overflow: hidden; */
+}
+
+#root {
+  min-height: 100vh;
+}

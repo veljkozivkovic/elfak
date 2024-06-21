@@ -1,0 +1,354 @@
+{
+  "highlights": [
+    {
+      "id": "0",
+      "embedSrc": "https://www.youtube-nocookie.com/embed/3Y_oFwHF1Wc?si=jjNTUzJ7DojV480j"
+    },
+    {
+      "id": "1",
+      "embedSrc": "https://www.youtube-nocookie.com/embed/S8Tk0n4y0zU?si=Z6PYJ-C89Fd7zgIP"
+    },
+    {
+      "id": "2",
+      "embedSrc": "https://www.youtube-nocookie.com/embed/Ug7BGiFQeIk?si=32xiaddTCbq2nWwF"
+    },
+    {
+      "id": "3",
+      "embedSrc": "https://www.youtube-nocookie.com/embed/AcyxVGT5ETQ?si=2X3EG2g-xGrO-yUS"
+    },
+    {
+      "id": "4",
+      "embedSrc": "https://www.youtube-nocookie.com/embed/z_3chx7s2sI?si=EHsr8l5NHW81XfBX"
+    },
+    {
+      "id": "5",
+      "embedSrc": "https://www.youtube-nocookie.com/embed/xADfnYAbWZo?si=zoBqW5jDyx0kTMZe"
+    }
+  ],
+  "hotevents": [
+    {
+      "id": "10",
+      "title": "Ed Sheeran",
+      "location": "Belgrade, Serbia",
+      "date": "17.08.2024.",
+      "img": "../assets/edsiren.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "1",
+      "title": "Rammstein&Company&CocaCola",
+      "location": "Nis, Serbia",
+      "date": "24.05.2024.",
+      "img": "../assets/ramstajn.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "2",
+      "title": "Ed Sheeran",
+      "location": "Belgrade, Serbia",
+      "date": "17.08.2024",
+      "img": "../assets/edsiren.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "3",
+      "title": "Rammstein",
+      "location": "Nis, Serbia",
+      "date": "24.05.2024.",
+      "img": "../assets/ramstajn.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "4",
+      "title": "Ed Sheeran",
+      "location": "Belgrade, Serbia",
+      "date": "17.08.2024",
+      "img": "../assets/edsiren.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "5",
+      "title": "Rammstein",
+      "location": "Nis, Serbia",
+      "date": "24.05.2024.",
+      "img": "../assets/ramstajn.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "6",
+      "title": "Ed Sheeran",
+      "location": "Belgrade, Serbia",
+      "date": "17.08.2024",
+      "img": "../assets/edsiren.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    },
+    {
+      "id": "7",
+      "title": "Rammstein",
+      "location": "Nis, Serbia",
+      "date": "24.05.2024",
+      "img": "../assets/ramstajn.png",
+      "onFire": 1,
+      "time": "20h",
+      "organizerID": 123,
+      "organizer": "Pjotr Pjotr"
+    }
+  ],
+  "spaces": [
+    {
+      "id": "e3cb",
+      "surfaceDimension": {
+        "width": 1215.890625,
+        "height": 423.171875
+      },
+      "items": [
+        {
+          "type": "bar",
+          "id": "ID0.30394786885062297",
+          "top": 34,
+          "left": 519,
+          "height": 25,
+          "heightFactor": 0.8
+        },
+        {
+          "type": "bar",
+          "id": "ID0.5849782670123922",
+          "top": 111,
+          "left": 641,
+          "height": 25,
+          "heightFactor": 0.8
+        },
+        {
+          "type": "bar",
+          "id": "ID0.6682590782253288",
+          "top": 160,
+          "left": 254,
+          "height": 25,
+          "heightFactor": 0.8
+        },
+        {
+          "type": "stage",
+          "id": "ID0.184389241923961",
+          "top": 270,
+          "left": 472,
+          "height": 16,
+          "heightFactor": 0.8
+        },
+        {
+          "type": "table",
+          "id": "ID0.3704454726301194",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 259,
+          "left": 644,
+          "height": 50,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.9449849724970849",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 129,
+          "left": 349,
+          "height": 45,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.9853628070557199",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 204,
+          "left": 643,
+          "height": 50,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.12958805927560002",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 183,
+          "left": 352,
+          "height": 40,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.8520513444979028",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 274,
+          "left": 361,
+          "height": 40,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.40004470632301015",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 75,
+          "left": 388,
+          "height": 50,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.7981186982043669",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 61,
+          "left": 451,
+          "height": 44,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.20314540980172624",
+          "numberOfSeats": 4,
+          "reserved": false,
+          "price": 15,
+          "top": 114,
+          "left": 515,
+          "height": 39,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.6603384196479432",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 139,
+          "left": 592,
+          "height": 46,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.6709291281999872",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 230,
+          "left": 216,
+          "height": 48,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.3641641422008459",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 237,
+          "left": 282,
+          "height": 39,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.26948996120557545",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 308,
+          "left": 285,
+          "height": 39,
+          "heightFactor": 0.2
+        },
+        {
+          "type": "table",
+          "id": "ID0.7465395169005324",
+          "numberOfSeats": 6,
+          "reserved": false,
+          "price": 15,
+          "top": 306,
+          "left": 216,
+          "height": 47,
+          "heightFactor": 0.2
+        }
+      ],
+      "lines": [
+        {
+          "x1": 328,
+          "y1": 112,
+          "x2": 328,
+          "y2": 331
+        },
+        {
+          "x1": 328,
+          "y1": 112,
+          "x2": 411,
+          "y2": 39
+        },
+        {
+          "x1": 411,
+          "y1": 39,
+          "x2": 603,
+          "y2": 39
+        },
+        {
+          "x1": 603,
+          "y1": 39,
+          "x2": 603,
+          "y2": 114.172
+        },
+        {
+          "x1": 724.453,
+          "y1": 114.172,
+          "x2": 603,
+          "y2": 114.172
+        },
+        {
+          "x1": 724.453,
+          "y1": 114.172,
+          "x2": 724.453,
+          "y2": 331
+        },
+        {
+          "x1": 328,
+          "y1": 331,
+          "x2": 724.453,
+          "y2": 331
+        }
+      ],
+      "image": null,
+      "city": "Nis",
+      "country": "Serbia",
+      "address": "Ulica 54",
+      "latitude": 43.31498628203795,
+      "longitude": 21.897709260201022
+    }
+  ]
+}

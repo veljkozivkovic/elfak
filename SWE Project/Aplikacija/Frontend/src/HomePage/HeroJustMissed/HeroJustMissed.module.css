@@ -1,0 +1,131 @@
+.wrapper {
+  position: relative;
+  padding-top: rem(120px);
+  padding-bottom: rem(80px);
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    padding-top: rem(80px);
+    padding-bottom: rem(60px);
+  }
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+}
+
+.dots {
+  position: absolute;
+  color: light-dark(var(--mantine-color-gray-1), var(--mantine-color-dark-5));
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    display: none;
+  }
+}
+
+.dotsLeft {
+  left: 0;
+  top: 0;
+}
+
+.title {
+  text-align: center;
+  font-weight: 800;
+  font-size: rem(40px);
+  letter-spacing: -1px;
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  margin-bottom: var(--mantine-spacing-xs);
+  font-family: Greycliff CF, var(--mantine-font-family);
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: rem(28px);
+    text-align: left;
+  }
+}
+
+.subtitle {
+  text-align: center;
+  font-weight: 600;
+  font-size: rem(30px);
+  letter-spacing: -1px;
+}
+
+.highlight {
+  color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+}
+
+.description {
+  text-align: center;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    text-align: left;
+    font-size: var(--mantine-font-size-md);
+  }
+}
+
+.controls {
+  margin-top: var(--mantine-spacing-lg);
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    flex-direction: column;
+  }
+}
+
+.control {
+  &:not(:first-of-type) {
+    margin-left: var(--mantine-spacing-md);
+  }
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    height: rem(42px);
+    font-size: var(--mantine-font-size-md);
+
+    &:not(:first-of-type) {
+      margin-top: var(--mantine-spacing-md);
+      margin-left: 0;
+    }
+  }
+}
+
+.ldsRing,
+.ldsRing div {
+  box-sizing: border-box;
+}
+.ldsRing {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 60px;
+  width: 80px;
+  height: 80px;
+}
+.ldsRing div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid rgba(6, 35, 67, 1);
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: rgba(6, 35, 67, 1) transparent transparent transparent;
+}
+.ldsRing div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.ldsRing div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.ldsRing div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

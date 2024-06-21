@@ -1,0 +1,14 @@
+.p {
+  border-radius: 10px;
+  background-color: hsl(44, 100%, 86%);
+  box-sizing: "border-box";
+  padding: 5px;
+  margin: 0;
+  transition: all 0.25s ease;
+  min-width: 50px;
+  text-align: center;
+}
+
+.p:hover {
+  background-color: hsl(44, 100%, 71%);
+}

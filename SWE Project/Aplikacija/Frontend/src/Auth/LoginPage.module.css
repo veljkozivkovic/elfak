@@ -1,0 +1,22 @@
+.wrapper {
+  min-height: rem(900px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/Welcome2.jpg);
+}
+
+.form {
+  border-right: 3px solid black;
+  min-height: rem(900px);
+  max-width: rem(450px);
+  padding-top: rem(80px);
+  opacity: 0.85;
+  @media (max-width: $mantine-breakpoint-sm) {
+    max-width: 100%;
+  }
+}
+
+.title {
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  font-family: Greycliff CF, var(--mantine-font-family);
+}

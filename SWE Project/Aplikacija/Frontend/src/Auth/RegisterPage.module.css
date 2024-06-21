@@ -1,0 +1,21 @@
+.wrapper {
+  min-height: rem(900px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../assets/Welcome2.jpg);
+}
+
+.title {
+  font-family: Greycliff CF, var(--mantine-font-family);
+  font-weight: 900;
+}
+
+.pejper {
+  width: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  .pejper {
+    width: 90%;
+  }
+}
